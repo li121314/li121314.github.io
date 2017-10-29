@@ -37,7 +37,7 @@
     
     <title>
         
-            学习路上的风景 | 
+            links | 
         
         李天强的博客
     </title>
@@ -226,18 +226,15 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://yoursite.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="学习路上的风景 | 李天强的博客">
+    <meta property="og:title" content="links | 李天强的博客">
     <meta property="og:image" content="http://yoursite.com/img/favicon.png" />
     <meta property="og:description" content="">
     
 
     
-        <meta property="article:published_time" content="Fri Oct 27 2017 23:08:32 GMT+0800" />
-        <meta property="article:modified_time" content="Sun Oct 29 2017 23:12:22 GMT+0800" />
-    
 
     <!-- The Twitter Card protocol -->
-    <meta name="twitter:title" content="学习路上的风景 | 李天强的博客">
+    <meta name="twitter:title" content="links | 李天强的博客">
     <meta name="twitter:description" content="">
     <meta name="twitter:image" content="http://yoursite.com/img/favicon.png">
     <meta name="twitter:card" content="summary_large_image" />
@@ -245,43 +242,13 @@
 
     <!-- Add canonical link for SEO -->
     
-        <link rel="canonical" href="http://yoursite.com/学习路上的风景/index.html" />
+        <link rel="canonical" href="http://yoursite.com/links/index.html" />
     
 
     <!-- Structured-data for SEO -->
     
         
 
-
-<script type="application/ld+json">
-{
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "mainEntityOfPage": "http://yoursite.com/学习路上的风景/index.html",
-    "headline": "学习路上的风景",
-    "datePublished": "Fri Oct 27 2017 23:08:32 GMT+0800",
-    "dateModified": "Sun Oct 29 2017 23:12:22 GMT+0800",
-    "author": {
-        "@type": "Person",
-        "name": "李天强",
-        "image": {
-            "@type": "ImageObject",
-            "url": "/img/avatar.png"
-        },
-        "description": "欢迎来到我的博客"
-    },
-    "publisher": {
-        "@type": "Organization",
-        "name": "李天强的博客",
-        "logo": {
-            "@type":"ImageObject",
-            "url": "/img/favicon.png"
-        }
-    },
-    "keywords": "",
-    "description": "",
-}
-</script>
 
 
     
@@ -317,215 +284,115 @@
 
                     <!-- Post TOC -->
 
-    
-    <!-- Back Button -->
-    <!--
-    <div class="material-back" id="backhome-div" tabindex="0">
-        <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon"
-           href="#" onclick="window.history.back();return false;"
-           target="_self"
-           role="button"
-           data-upgraded=",MaterialButton,MaterialRipple">
-            <i class="material-icons" role="presentation">arrow_back</i>
-            <span class="mdl-button__ripple-container">
-                <span class="mdl-ripple"></span>
-            </span>
-        </a>
-    </div>
-    -->
-
-
-    <!-- Left aligned menu below button -->
-    
-    
-    <button id="post-toc-trigger-btn"
-        class="mdl-button mdl-js-button mdl-button--icon">
-        <i class="material-icons">format_list_numbered</i>
-    </button>
-
-    <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn" style="max-height:80vh; overflow-y:scroll;">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#2017-10-27"><span class="post-toc-number">1.</span> <span class="post-toc-text">2017.10.27</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#getElemenById（）方法"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">getElemenById（）方法</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#getElementByTagName-方法"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">getElementByTagName()方法</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#getAttribute-方法"><span class="post-toc-number">1.3.</span> <span class="post-toc-text">getAttribute() 方法</span></a></li><li class="post-toc-item post-toc-level-4"><a class="post-toc-link" href="#setAttribute-方法"><span class="post-toc-number">1.4.</span> <span class="post-toc-text">setAttribute() 方法</span></a></li></ol></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#2017-10-29"><span class="post-toc-number">2.</span> <span class="post-toc-text">2017.10.29</span></a></li></ol>
-    </ul>
-    
-
-
-
 
 <!-- Layouts -->
 
-    <!-- Post Module -->
-    <div class="material-post_container">
+    <!-- Single Links Page -->
+    <style>
+    .md-links {
+        min-height: calc(100% - 120px - 5pc - 6em);
+        text-align: center;
+        overflow: auto;
+        padding: 0;
+        margin: 0 auto;
+        max-width: 320px;
+    }
 
-        <div class="material-post mdl-grid">
-            <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
+    @media screen and (min-width: 680px) {
+        .md-links {
+            max-width: 640px;
+        }
+    }
 
-                <!-- Post Header(Thumbnail & Title) -->
-                
-    <!-- Paradox Post Header -->
-    
-        
-            <!-- Random Thumbnail -->
-            <div class="post_thumbnail-random mdl-card__media mdl-color-text--grey-50">
-            <script type="text/ls-javascript" id="post-thumbnail-script">
-    var randomNum = Math.floor(Math.random() * 19 + 1);
+    @media screen and (min-width: 1000px) {
+        .md-links {
+            max-width: 960px;
+        }
+    }
 
-    $('.post_thumbnail-random').attr('data-original', '/img/random/material-' + randomNum + '.png');
-    $('.post_thumbnail-random').addClass('lazy');
-</script>
+    @media screen and (min-width: 1320px) {
+        .md-links {
+            max-width: 1280px;
+        }
+    }
 
-        
-    
-            <p class="article-headline-p">
-                学习路上的风景
-            </p>
-        </div>
+    @media screen and (min-width: 1640px) {
+        .md-links {
+            max-width: 1600px;
+        }
+    }
 
+    @media screen and (max-width: 480px) {
+        .md-links {
+            min-height: calc(100% - 200px - 5pc - 6em);
+            margin-top: 6em;
+        }
+    }
 
+    .md-links-item {
+        background: #fff;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+        height: 72px;
+        line-height: 15px;
+        margin: 20px 10px;
+        padding: 0px 0px;
+        transition: box-shadow 0.25s;
+    }
 
+    .md-links a {
+        color: #333;
+        text-decoration: none;
+    }
 
+    .md-links li {
+        width: 300px;
+        float: left;
+        list-style: none;
+    }
 
-                
-                    <!-- Paradox Post Info -->
-                    <div class="mdl-color-text--grey-700 mdl-card__supporting-text meta">
+    .md-links-item img {
+        float: left;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 11px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+    }
 
-    <!-- Author Avatar -->
-    <div id="author-avatar">
-        <img src="/img/avatar.png" width="44px" height="44px" alt="Author Avatar"/>
-    </div>
-    <!-- Author Name & Date -->
-    <div>
-        <strong>李天强</strong>
-        <span>10月 27, 2017</span>
-    </div>
+    .md-links-item:hover {
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
 
-    <div class="section-spacer"></div>
+    .md-links-item a:hover{
+        cursor: pointer;
+    }
 
-    <!-- Favorite -->
-    <!--
-        <button id="article-functions-like-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon btn-like">
-            <i class="material-icons" role="presentation">favorite</i>
-            <span class="visuallyhidden">favorites</span>
-        </button>
-    -->
+    .md-links-title {
+        font-size: 20px;
+        line-height: 50px;
+    }
 
-    <!-- Qrcode -->
-    
+    #scheme-Paradox .mdl-mini-footer{
+        clear: left;
+    }
+    #bottom{
+        position: relative;
+    }
+</style>
 
-    <!-- Tags (bookmark) -->
-    
-
-    <!-- Share -->
-    <button id="article-fuctions-share-button" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-    <i class="material-icons" role="presentation">share</i>
-    <span class="visuallyhidden">share</span>
-</button>
-<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-fuctions-share-button">
-    
-
-    
-
-    <!-- Share Weibo -->
-    
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=学习路上的风景&url=http://yoursite.com/学习路上的风景/index.html&pic=http://yoursite.com/img/favicon.png&searchPic=false&style=simple" target="_blank">
-            <li class="mdl-menu__item">
-                分享到微博
-            </li>
-        </a>
-    
-
-    <!-- Share Twitter -->
-    
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=学习路上的风景&url=http://yoursite.com/学习路上的风景/index.html&via=李天强" target="_blank">
-            <li class="mdl-menu__item">
-                分享到 Twitter
-            </li>
-        </a>
-    
-
-    <!-- Share Facebook -->
-    
-        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://yoursite.com/学习路上的风景/index.html" target="_blank">
-            <li class="mdl-menu__item">
-                分享到 Facebook
-            </li>
-        </a>
-    
-
-    <!-- Share Google+ -->
-    
-        <a class="post_share-link" href="https://plus.google.com/share?url=http://yoursite.com/学习路上的风景/index.html" target="_blank">
-            <li class="mdl-menu__item">
-                分享到 Google+
-            </li>
-        </a>
-    
-
-    <!-- Share LinkedIn -->
-    
-
-    <!-- Share QQ -->
-    
-
-    <!-- Share Telegram -->
+<ul class="md-links">
     
 </ul>
 
-</div>
-
-                
-
-                <!-- Post Content -->
-                <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
-    
-        <p>本文的目的在于记录我在学习中的收获和问题。由于本人天资愚钝和拖延症比较严重，写下点东西看看本人都做了些什么事</p>
-<h3 id="2017-10-27"><a href="#2017-10-27" class="headerlink" title="2017.10.27"></a>2017.10.27</h3><pre><code>长期看基础教程不动手是学不会编程的
-</code></pre><p>  拖延症太严重了，我找了一本叫《JavaScript DOM编程艺术》书籍开始准备一点一点的把书上的东西写下来。人比较笨只能一点一点的学习了：</p>
-<h4 id="getElemenById（）方法"><a href="#getElemenById（）方法" class="headerlink" title="getElemenById（）方法"></a>getElemenById（）方法</h4><pre><code>这个方法将返回一个与那个有着指定id属性值的元素节点，我把id想象成人的名字但是id却是唯一的，假设你这个人是一个对象这个方法就是通过你的名字得到你的信息。
-</code></pre><h4 id="getElementByTagName-方法"><a href="#getElementByTagName-方法" class="headerlink" title="getElementByTagName()方法"></a>getElementByTagName()方法</h4><pre><code>这个方法返回一个对象数组，就是通过标签名获得数组 ，这个数组里都是对象，
-</code></pre><h4 id="getAttribute-方法"><a href="#getAttribute-方法" class="headerlink" title="getAttribute() 方法"></a>getAttribute() 方法</h4><pre><code>用getElementByTagName()方法 找到那个元素后用这个方法把属性值查询出来
-</code></pre><h4 id="setAttribute-方法"><a href="#setAttribute-方法" class="headerlink" title="setAttribute() 方法"></a>setAttribute() 方法</h4><pre><code>这个方法可以修改属性值
-</code></pre><h3 id="2017-10-29"><a href="#2017-10-29" class="headerlink" title="2017.10.29"></a>2017.10.29</h3><p>周末完全无心学习基本保持一天一章的节奏</p>
-<p>####childNodes 属性<br>这个属性让我们把给定文档元素的子元素检索出来；返回一个数组，这个数组包含给定元素节点的全体子元素</p>
-<p>####nodeType 属性<br>这个属性是让我们区分文档里的各个节点</p>
-<p>####nodeValue属性<br>检索和设置节点的值</p>
-
-        
-    
-
-    
-</div>
+<script type="text/ls-javascript" id="page-links-script">
+    var adjustFooter = function() {
+        if( ($('#bottom').offset().top + $('#bottom').outerHeight() )<$(window).height() ) {
+            var footerBottom = $(window).height() - $('#bottom').outerHeight() - $('#bottom').offset().top;
+            $('#bottom').css('bottom', '-' + footerBottom + 'px');
+        }
+    };
+    $(document).ready(function() {
+        adjustFooter();
+    });
+</script>
 
 
-                
-
-                <!-- Post Comments -->
-                
-                    
-                
-            </div>
-
-            <!-- Post Prev & Next Nav -->
-            <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
-    <!-- Prev Nav -->
-    
-
-    <!-- Section Spacer -->
-    <div class="section-spacer"></div>
-
-    <!-- Next Nav -->
-    
-        <a href="/js的内置对象/" id="post_nav-older" class="next-content">
-            旧篇
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_forward</i>
-            </button>
-        </a>
-    
-</nav>
-
-        </div>
-    </div>
 
 
 
@@ -709,14 +576,6 @@ It will not impact the appearance and can give developers a lot of support :)
 </aside>
 
                     
-
-                    
-                        <!-- Footer Top Button -->
-                        <div id="back-to-top" class="toTop-wrap">
-    <a href="#top" class="toTop">
-        <i class="material-icons footer_top-i">expand_less</i>
-    </a>
-</div>
 
                     
 
