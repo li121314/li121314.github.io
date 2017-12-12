@@ -1,0 +1,15 @@
+
+/*给元素添加属性*/
+.bux{
+    /*填充元素使元素填充为宽30%，高30%*/
+    padding: 15%;
+    /*设置元素位置*/
+    margin :2% 1% 1% 2%;
+    /*设置元素背景颜色*/
+    background-color: orange;
+    /*设置元素直角为圆角*/
+    border-radius: 10%;
+    float:left;
+}
+
+
