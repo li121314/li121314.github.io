@@ -1,0 +1,68 @@
+html{
+    font-size: 10px;
+}
+/* 给页面添加背景图片*/
+body{
+    margin: 0;
+    padding: 0;
+    background: url("../img/bg.png");/*设置背景图片 */
+
+}
+/*添加返回按钮*/
+.fh{
+    width: 5.4rem;
+    height: 5.4rem;
+    margin-top: 2rem ;
+    margin-left: 3.5rem;
+    background: url("../img/fh.png") no-repeat;
+}
+/*添加标题图片*/
+.bt{
+    width: 18.1rem;
+    height: 7rem;
+    margin:10rem auto;
+    background: url("../img/biaoti.png") no-repeat;
+}
+.wb{
+   /* width: 80rem;*/
+    margin: 0 auto;
+    font-family: 微软雅黑, arial;
+    font-size: 2.5rem;
+    color:white;
+
+
+}
+
+.wb p{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.db{
+    width: 70%;
+    margin: 10rem auto;
+
+}
+.db_left{
+  /*  width: 8.4rem;
+    height: 8.4rem;
+    background: url("../img/yonghu.png") no-repeat;*/
+    float: left;
+}
+.db_right{
+  /* background: url("../img/logo.png") no-repeat;
+    width: 8.4rem;
+    height: 8.4rem;*/
+    float: right;
+
+}
+
+img{
+    display: block;
+}
+span{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
