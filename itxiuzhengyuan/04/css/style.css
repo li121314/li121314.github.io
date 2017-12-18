@@ -114,7 +114,7 @@ main .input1{
 
 .dl_button{
     position: absolute;
-    top:20rem;
+    top:16rem;
 
 
     height: 5rem;
@@ -131,6 +131,8 @@ main .input1{
     border: none;
  /*   letter-spacing: 1.2rem;*/
     text-align: center;
+    cursor: pointer;
+
 }
 
 .footer{
