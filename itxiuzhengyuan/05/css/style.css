@@ -199,6 +199,7 @@ footer{
     bottom: 0;
     width: 100%;
     background: #fff;
+    white-space :nowrap;
 }
 
 footer button{
