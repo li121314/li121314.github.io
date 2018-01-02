@@ -169,13 +169,14 @@ main ul li{
     border-bottom: 1px solid #e1e5e7;
 }
 
+
 .centent ul li{
     list-style: none;
     display: inline-flex;
     flex-direction: row;
     align-items: center;
-    width: 50%;
-    padding-left: 1rem;
+    width: 60%;
+    padding-left: 0rem;
     color: #999999;
 
 
@@ -205,7 +206,7 @@ main ul li{
     position: absolute;
     top:50%;
     transform: translateY(-50%);
-    right: 0;
+    right: 1px;
 
 }
 
