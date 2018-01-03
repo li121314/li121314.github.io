@@ -70,11 +70,15 @@ header .header_one{
 
 main{
 
-
+    position: relative;
+    top:10rem;
     display: flex;
     align-items: center;/*垂直居中*/
      width: 100%;
-    height: 30rem;
+   /* height: 30rem;*/
+    flex-direction: column;
+    justify-content: space-between;
+
 
 }
 .main-top{
@@ -85,7 +89,7 @@ main{
 
     border-bottom:1px solid #e1e5e7 ;
     width: 100%;
-    height: 5rem;
+   /* height: 5rem;*/
     padding-left: 0;
     padding-right: 0;
     text-align: center;
@@ -98,6 +102,7 @@ ul{
     margin-bottom: 0;
 
 }
+
 
 main a{
     display: block;
@@ -154,40 +159,58 @@ main ul li{
     transform: scale(0.6);/*定义 2D 缩放转换。*/
 }
 
+
+
 .centent{
-    position: absolute;
     display: flex;
-    font-size: 1.6rem;
-    width: 100%;
-    height: 7rem;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
 
-    top:10rem;
-
+    width: 100%;
+    height: 7rem;
+    font-size: 1.4rem;
+    color: #999;
     border-bottom: 1px solid #e1e5e7;
 }
-
-
-.centent ul li{
-    list-style: none;
-    display: inline-flex;
-    flex-direction: row;
-    align-items: center;
-    width: 60%;
-    padding-left: 0rem;
-    color: #999999;
-
+.centent-left{
+    width: 50%;
+}
+.centent-left-top{
+    display: flex;
+    align-items:center;
 
 }
-.centent ul li span{
-    padding-left: 2.4rem;
+
+.centent-left-buttom{
+    display: flex;
+    align-items:center;
+}
+.centent-left-center{
+    padding-left: 2.5rem;
     color: #000;
     overflow: hidden;
-    text-overflow: ellipsis;
     white-space: nowrap;
+    text-overflow: ellipsis;
+
 }
+
+.centent-left-top div{
+    display: inline-block;
+}
+.centent-left-center div{
+    display: inline-block;
+}
+.centent-left-buttom div{
+    display: inline-block;
+}
+
+.centent1{
+    top:14rem;
+}
+
+
+
+
 .img1{
     display: inline-block;
     width: 30px;
@@ -198,15 +221,10 @@ main ul li{
     transform: scale(0.6);/*定义 2D 缩放转换。*/
 }
 .CententTextRight{
-
+    display: flex;
+    align-items:center;
     color: red;
-    display: inline-flex;
-    flex-direction: row;
-    align-items: center;
-    position: absolute;
-    top:50%;
-    transform: translateY(-50%);
-    right: 1px;
+
 
 }
 
@@ -220,18 +238,3 @@ main ul li{
     transform: scale(0.5);/*定义 2D 缩放转换。*/
 }
 
-.centent1{
-    top:17rem;
-}
-.centent2{
-    top:24rem;
-}
-.centent3{
-    top:31rem;
-}
-.centent4{
-    top:38rem;
-}
-.centent5{
-    top:45rem;
-}
