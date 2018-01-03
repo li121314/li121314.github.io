@@ -71,14 +71,14 @@ header .header_one{
 main{
 
     position: relative;
-    top:10rem;
+    top:11rem;
     display: flex;
     align-items: center;/*垂直居中*/
      width: 100%;
    /* height: 30rem;*/
     flex-direction: column;
     justify-content: space-between;
-
+    margin-bottom: 5rem;
 
 }
 .main-top{
@@ -95,7 +95,7 @@ main{
     text-align: center;
     font-size: 1.6rem;
     z-index: 88;
-
+    color: #999;
 }
 
 ul{
@@ -107,6 +107,7 @@ ul{
 main a{
     display: block;
     text-decoration: none;
+    color: #999;
     width: 100%;
 }
 
@@ -238,3 +239,50 @@ main ul li{
     transform: scale(0.5);/*定义 2D 缩放转换。*/
 }
 
+footer{
+    position: fixed;
+    width: 100%;
+    height: 5rem;
+    background: white;
+    bottom: 0;
+    display: inline-flex;
+    align-items:center;
+    justify-content: center;
+
+}
+
+.footerone{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 70%;
+    height: 5rem;
+}
+
+.footerbox{
+
+    width: 30px;
+    text-align:center;
+    color: #5fc0cd;
+}
+.footerbox img{
+    width: 100%;
+}
+
+.footerboxcenter{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 2.5rem;
+    background:#5fc0cd ;
+}
+
+.img3{
+    width: 60px;
+    height: 60px;
+    background-image: url("../img/two.png");
+    background-position:7px -143px ;
+    background-repeat: no-repeat;
+    flex: 0 0 30px;
+    transform: scale(1);/*定义 2D 缩放转换。*/
+
+}
