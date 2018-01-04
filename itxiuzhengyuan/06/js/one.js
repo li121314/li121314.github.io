@@ -25,7 +25,7 @@ window.onload=function(){
        maintopleft.onclick=function () {
            document.getElementById("navone").style.display="block";
        }
-       maintopleft.onmouseout=function () {
+      maintopleft.onmouseout=function () {
            document.getElementById("navone").style.display="none";
        }
 

@@ -288,7 +288,6 @@ footer{
     height: 30px;
     background: url("../img/Write.png") no-repeat;
     background-size:contain;
-    
-    transform: scale(.8);/*定义 2D 缩放转换。*/
+    transform: scale(1);/*定义 2D 缩放转换。*/
 
 }
