@@ -105,7 +105,7 @@ ul{
 
 
 main a{
-    display: block;
+   /* display: block;*/
     text-decoration: none;
     color: #999;
     width: 100%;
@@ -124,10 +124,13 @@ main ul li{
     padding-top: 1.5rem;
     padding-bottom: 2rem;
 
+
 }
 
 
 .main-top_center{
+    display: block;
+    width: 100%;
     border-right: 1px solid #e2e6e7;
     border-left:1px solid #e2e6e7 ;
 }
@@ -135,6 +138,7 @@ main ul li{
 .none1{
     display:none;
 
+    padding-top: .5rem;
 }
 
 .sanjiao{
@@ -248,7 +252,7 @@ footer{
     display: inline-flex;
     align-items:center;
     justify-content: center;
-
+    background: #f8fafb;
 }
 
 .footerone{
@@ -270,19 +274,21 @@ footer{
 }
 
 .footerboxcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 5rem;
     height: 5rem;
-    border-radius: 2.5rem;
+    border-radius: 50%;
     background:#5fc0cd ;
 }
 
 .img3{
-    width: 60px;
-    height: 60px;
-    background-image: url("../img/two.png");
-    background-position:7px -143px ;
-    background-repeat: no-repeat;
-    flex: 0 0 30px;
-    transform: scale(1);/*定义 2D 缩放转换。*/
+    width: 30px;
+    height: 30px;
+    background: url("../img/Write.png") no-repeat;
+    background-size:contain;
+    
+    transform: scale(.8);/*定义 2D 缩放转换。*/
 
 }

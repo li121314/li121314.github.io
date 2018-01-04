@@ -22,7 +22,7 @@ window.onload=function(){
        }
 
        var maintopleft=document.getElementById("main-top-left");
-       maintopleft.onmouseover=function () {
+       maintopleft.onclick=function () {
            document.getElementById("navone").style.display="block";
        }
        maintopleft.onmouseout=function () {
@@ -30,7 +30,7 @@ window.onload=function(){
        }
 
     var maintopcenter=document.getElementById("main-top-center");
-    maintopcenter.onmouseover=function () {
+    maintopcenter.onclick=function () {
         document.getElementById("navtwo").style.display="block";
     }
     maintopcenter.onmouseout=function () {
@@ -38,7 +38,7 @@ window.onload=function(){
     }
 
     var maintopright=document.getElementById("main-top-right");
-    maintopright.onmouseover=function () {
+    maintopright.onclick=function () {
         document.getElementById("navthree").style.display="block";
     }
     maintopright.onmouseout=function () {
