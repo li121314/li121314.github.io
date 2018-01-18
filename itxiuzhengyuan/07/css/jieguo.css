@@ -1,0 +1,133 @@
+html{
+    font-size: 10px;
+}
+
+
+
+header{
+    height: 5rem;
+    width: 100%;
+    background: #29bde0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.8rem;
+    position: fixed;
+    border-bottom:1px #74d4eb solid ;
+    z-index: 1000;
+}
+header .home{
+    width: 5rem;
+    height: 4rem;
+    background: url("../img/home.png") no-repeat;
+    transform: scale(0.6);
+    position: absolute;
+    left: 0;
+
+}
+header .pay{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: white 2px solid;
+    background: url("../img/i.png");
+    background-size: contain;
+    margin-right: 2%;
+    transform: scale(1.1);
+    position: absolute;
+    right: 2%;
+}
+section{
+    position: relative;
+    top:5rem;
+    display: flex;
+    flex-direction: column;
+    background: #29bde0;
+    width: 100%;
+    height: 35rem;
+}
+
+section .sec-one{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+section .sec-one-first{
+
+    background: url("../img/header-one.png") no-repeat ;
+    width: 18rem;
+    height: 11rem;
+    background-size: contain;
+
+}
+
+section .sec-two{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+section .sec-two-first{
+    width: 80vw;
+    font-size: 2rem;
+    color: #ffc865;
+}
+
+section .sec-three{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+
+}
+section .sec-three-first{
+    font-size: 1.6rem;
+    color: white;
+}
+
+article{
+    position: relative;
+    top:5rem;
+    margin-bottom: 5rem;
+}
+.art-one{
+    border-bottom: 2px solid #dddddd;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 1rem;
+    color:#a6a6a6;
+}
+.art-one-font{
+    font-size: 1.8rem;
+    color: #000;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.art-one-first{
+    display: flex;
+    justify-content: flex-end;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    background: #99dff0;
+    opacity: 0.8;
+}
+
+.foot{
+    width: 100%;
+}
+.foot-one{
+    background: #f66f6f;
+    color: white;
+}
+.foot-two{
+    background: #fbb435;
+    color: white;
+}
