@@ -41,4 +41,9 @@ $(".home").click(function () {
         location.href='index.html';
     });
 
+    $(".ol-one li").click(function(){
+        $(".ol-one li").removeClass("active");
+        $(this).addClass("active");
+    });
+
 });
