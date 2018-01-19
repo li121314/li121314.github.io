@@ -12,6 +12,8 @@ body{
     background: #f0f0f0;
 }
 
+
+
 header{
     background: #29bde0;
     width: 100%;
@@ -129,9 +131,14 @@ section{
     background: #69d1e9;
     border: none;
     border-radius: 0;
-    color: #fff;
+    color: white;
 
 }
+
+.sec-btn:hover{
+    color: #29bde0;
+}
+
 .last-span{
     position: absolute;
     top:7rem;
@@ -140,10 +147,10 @@ section{
 }
 
 section .caret{
-    position: fixed;
-    top: 50%;
+    position: absolute;
+    top: 47%;
     transform: translateY(-50%);
-    right: 3%;
+    right: 2vw;
     border-left: 10px solid #fbb435;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;

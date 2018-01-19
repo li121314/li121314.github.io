@@ -46,4 +46,12 @@ $(".home").click(function () {
         $(this).addClass("active");
     });
 
+    $(".sec-btn").mouseenter(function () {
+        $(this).css({"background-color":"#69d1e9","color":"white"});
+
+    });
+
+    $(".fot-one-first").mouseenter(function () {
+        $(this).css("background-color","#fbb435");
+    });
 });
