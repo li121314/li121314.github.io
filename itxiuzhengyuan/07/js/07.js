@@ -54,4 +54,10 @@ $(".home").click(function () {
     $(".fot-one-first").mouseenter(function () {
         $(this).css("background-color","#fbb435");
     });
+
+
+    $(".art-box-two div").click(function () {
+        $(".art-box-two div").css("border","none");
+        $(this).css("border",".1px solid #000");
+    });
 });

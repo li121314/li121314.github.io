@@ -101,13 +101,14 @@ header div{
 .sec-one-first{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
     height: 4rem;
     font-size: 1.6rem;
+    padding-left: 5vw;
 }
 .sec-one-second{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     height: 4rem;
 }
@@ -206,13 +207,53 @@ article{
     font-size: 4vw;
 }
 .art-box-two{
+    display: flex;
+    justify-content:space-between;
     position: absolute;
     top:26vw;
     width: 21vw;
     height: 5vw;
-    background: url("../img/art-two.png") ;
-    background-size: contain;
+    background: #29bde0;
+
     margin-left: 5vw;
+}
+
+
+.art-box-twoimg1{
+    width: 5vw;
+    height: 5vw;
+    background-image: url("../img/art-two.png");
+    background-position: 0px,0px;
+
+    background-size: 460% 100%;
+
+
+}
+.art-box-twoimg2{
+    width: 5vw;
+    height: 5vw;
+    background-image: url("../img/art-two.png");
+    background-position: -6vw,0vw;
+
+    background-size: 460% 100%;
+
+}
+.art-box-twoimg3{
+    width: 5vw;
+    height: 5vw;
+    background-image: url("../img/art-two.png");
+    background-position: -12vw,0vw;
+    background-size: 460% 100%;
+
+}
+.art-box-twoimg4{
+    width: 5vw;
+    height: 5vw;
+    background-image: url("../img/art-two.png");
+    background-position: -18vw,0vw;
+
+    background-size: 460% 100%;
+
 }
 
 footer{
