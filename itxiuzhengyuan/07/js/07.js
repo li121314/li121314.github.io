@@ -57,7 +57,7 @@ $(".home").click(function () {
 
 
     $(".art-box-two div").click(function () {
-        $(".art-box-two div").css("border","none");
-        $(this).css("border",".1px solid #000");
+        $(".art-box-two div").css("opacity","1");
+        $(this).css("opacity","0.8");
     });
 });
