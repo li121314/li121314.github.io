@@ -149,9 +149,10 @@ body{
     width: 100%;
     padding-left: 0;
     padding-right: 0;
-}
-.carousel .item img{
 
+}
+.lunbo .item img{
+    height: 30vw;
 }
 .car-zhibiao li{
     width: 1rem;
@@ -194,6 +195,7 @@ body{
     justify-content: center;
     flex-direction: column;
     border: none;
+    background: #fafafa;
 }
 
 .centert-one h3{
@@ -227,6 +229,7 @@ body{
     padding: 5rem 1rem 2rem 4rem;
 }
 .centert-one-second{
+    background: #fafafa;
     border: none;
     border-left:dashed 1px #dedede ;
 }
