@@ -1,0 +1,110 @@
+/*初始化*/
+html{
+    font-size: 10px;
+}
+body{
+    background: #fafafa;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/**********顶部样式*****************/
+.top-1{
+    color: #29b078;
+    font-size: 1.6rem;
+    margin: .5rem 0;
+}
+.top-2{
+    margin: .5rem 0;
+    float: right;
+
+}
+/*使电话号码在屏幕缩小的时候隐藏 避免top图片下移一行*/
+@media screen and (max-width:992px ){
+    .top-left{
+        display: none;
+    }
+}
+header{
+    background: #29b078;/*设置header的背景颜色*/
+}
+header .navbar{
+    margin-bottom: 0;/*清除nav下外边距*/
+}
+header .navbar-default{
+    border: none;/* 清除nav的边框*/
+}
+header .container-fluid{
+    padding-left: 0; /*清除container-fluid的默认内边距使 ul宽度为100%*/
+    padding-right: 0;
+}
+
+.head-nav{
+    background: #29b078;/*设置导航的元素的背景颜色*/
+    border: none;
+}
+header .navbar-default .navbar-nav>li>a{
+    color: white; /**设置a标签的默认样式**/
+}
+header .navbar-default .navbar-nav>li>a:hover{
+    color: white;
+    border-bottom: .3rem solid white; /**设置鼠标移动到a标签的样式*/
+    background: none;
+}
+/*设置首页标签的样式*/
+.a-active{
+    border-bottom: .3rem solid white;
+}
+/*清除bootstrap 第一个a标签的默认样式*/
+header .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    color: white;
+    background: none;
+}
+/*清除container-fluid的默认样式*/
+.lunbo{
+    padding-right: 0;
+    padding-left: 0;
+}
+.art1{
+   margin-right: 0;
+    margin-left: 0;
+}
+.art1-1{
+    padding-right: 0;
+    padding-left: 0;
+}
+/*设置a指标的位置*/
+.carousel-control{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+}
+.renmai img{
+    transform: scale(0.6);
+}
+.art2{
+    padding-top:5rem ;
+}
+.art2 p{
+    font-size: 1rem;
+    color: #999999;
+}
+.img1{
+    padding: 7px 0;
+}
+.zaixian{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: dashed 1px #dedede;
+}
+.zaixian section{
+    padding: 3.5rem 2.5rem;
+
+}
+.zaixian section img{
+    vertical-align: baseline;
+}
