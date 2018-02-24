@@ -108,3 +108,202 @@ header .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.activ
 .zaixian section img{
     vertical-align: baseline;
 }
+
+.art3-wrap{
+    padding-bottom:2rem ;
+}
+
+.p1{
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 2rem 0;
+}
+.p2{
+    width: 50%;
+    color: #999999;
+    font-size: 1.2rem;
+}
+.art3-1{
+    width: 4rem;
+    height: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    color: #29b078;
+    border-radius: 50%;
+    margin-right: 1rem;
+    box-shadow:1px 1px 1px 1px #999;
+}
+.art3-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.art3-box-1{
+    display: flex;
+    align-items: center;
+}
+@media screen and (min-width:992px ){
+    .img-none{
+        display: none;
+    }
+
+}
+@media screen and (max-width:992px ){
+    .art3-box{
+        margin: 2rem 0;
+    }
+    .art3-box-1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .art3-wrap{
+        padding-bottom: 0;
+    }
+    .art5-box{
+        margin: 2rem 0;
+    }
+    .foot-box-1{
+        float: left;
+    }
+
+}
+
+.art-box{
+    background: white;
+    text-align: center;
+    box-shadow: 0  0 9px #999;
+}
+.art-box img{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin: 1rem 0;
+
+}
+.p3{
+    font-size: 1.2rem;
+}
+.p4{
+    padding: 1.5rem;
+    color: #999;
+    font-size: 1.2rem;
+}
+.art4-1{
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+}
+.art4-1-1{
+    width: 1rem;
+    height: 1rem;
+    background: white;
+    border-radius: 50%;
+    margin: 0 .3rem;
+}
+.art4-1-1:hover{
+    background: #29b078;
+}
+
+
+/* ********************  定义网格为5个**************             */
+@media (min-width: 768px) {
+    .col-sm-1-5 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-1-5 {
+        width: 20%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-1-5 {
+        width: 20%;
+        float: left;
+    }
+}
+
+/********************定义网格10*******************************/
+@media (min-width: 768px) {
+    .col-sm-1-10 {
+        width: 10%;
+        float: left;
+    }
+}
+@media (min-width: 992px) {
+    .col-md-1-10 {
+        width: 10%;
+        float: left;
+    }
+}
+@media (min-width: 1200px) {
+    .col-lg-1-10 {
+        width: 10%;
+        float: left;
+    }
+}
+
+
+.art5 img{
+    transform: scale(0.8);
+}
+.art5-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    height: 10rem;
+}
+.art5-box:hover{
+    border: 1px solid #e2e2e2;
+}
+
+.art6 ul li{
+    color: #999999;
+}
+.art6 ul li a{
+    color: #999999;
+}
+.art6{
+    background: white;
+    margin-top: 5rem ;
+}
+footer{
+    background: #26a26f;
+    color: white;
+}
+footer ul li {
+    display: inline-flex;
+    padding: 0 .5rem;
+}
+footer ul li a{
+    color: white;
+}
+.foot-one{
+    border-left: solid 1px white;
+    border-right: solid 1px white;
+}
+.a1{
+    margin: 1rem 3rem 0  0;
+    color: white;
+}
+.foot-box-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.p5{
+    padding: 2rem 0 0 0;
+}
+.foot-two{
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    border-top:solid 1px #32c086 ;
+}
