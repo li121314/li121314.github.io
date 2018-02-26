@@ -62,6 +62,14 @@ header .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.activ
     color: white;
     background: none;
 }
+
+.ImgOne{
+    transform: scale(.8);
+}
+.nav-A{
+    padding: 0;
+}
+
 /*清除container-fluid的默认样式*/
 .lunbo{
     padding-right: 0;

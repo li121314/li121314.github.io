@@ -1,0 +1,308 @@
+/*初始化*/
+html{
+    font-size: 10px;
+}
+body{
+    background: #fafafa;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/**********顶部样式*****************/
+.top-1{
+    color: #29b078;
+    font-size: 1.6rem;
+    margin: .5rem 0;
+}
+.top-2{
+    margin: .5rem 0;
+    float: right;
+
+}
+/*使电话号码在屏幕缩小的时候隐藏 避免top图片下移一行*/
+@media screen and (max-width:992px ){
+    .top-left{
+        display: none;
+    }
+}
+header{
+    background: #29b078;/*设置header的背景颜色*/
+}
+header .navbar{
+    margin-bottom: 0;/*清除nav下外边距*/
+}
+header .navbar-default{
+    border: none;/* 清除nav的边框*/
+}
+header .container-fluid{
+    padding-left: 0; /*清除container-fluid的默认内边距使 ul宽度为100%*/
+    padding-right: 0;
+}
+
+.head-nav{
+    background: #29b078;/*设置导航的元素的背景颜色*/
+    border: none;
+}
+header .navbar-default .navbar-nav>li>a{
+    color: white; /**设置a标签的默认样式**/
+}
+header .navbar-default .navbar-nav>li>a:hover{
+    color: white;
+    border-bottom: .3rem solid white; /**设置鼠标移动到a标签的样式*/
+    background: none;
+}
+/*设置首页标签的样式*/
+.a-active{
+    border-bottom: .3rem solid white;
+}
+/*清除bootstrap 第一个a标签的默认样式*/
+header .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    color: white;
+    background: none;
+}
+
+.ImgOne{
+    transform: scale(.8);
+}
+.nav-A{
+    padding: 0;
+}
+/**********给首页职业添加样式************/
+
+.divOneWrap{
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    border-bottom: 1px solid #d0d6d9;
+}
+
+.aOne,.aOne:link,.aOne:visited,.aOne:hover{
+    color: #000;
+    text-decoration: none;
+}
+.aTwo,.aTwo:link,.aTwo:visited,.aTwo:hover{
+    text-decoration: none;
+    color:#29b078;
+}
+/*方向  */
+.divTwo{
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    border-bottom: 1px solid #edf1f2;
+}
+.divTwo2 ul{
+    margin-bottom: 0;/*清除ul下边距*/
+}
+.divTwo1,.divTwo2,.divTwo2 ul li{
+    display: inline-flex;
+    margin: 0 1rem 0  0;
+}
+
+
+.divTwo-a{
+    color:#000;
+}
+.divTwo-a:hover{
+    background: #29b078;
+    color: white;
+    text-decoration: none;
+}
+.divTwo-aDefault{
+    background: #29b078;
+    color: white;
+}
+.divThree{
+    display: flex;
+    align-items: center;
+    height: 6rem;
+    border-bottom: 1px solid #d0d6d9;
+}
+.pOne{
+    color: #000;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin: 0;
+}
+.pTWo{
+    margin: 5rem 0;
+    text-align: center;
+    color: white;
+    padding-right:15px ;
+}
+.pThree{
+    margin: 0 2rem;
+    text-align: center;
+    color: white;
+
+}
+.pFour{
+
+    font-weight: bold;
+    font-size: 1.6rem;
+    padding: .5rem 0;
+}
+.pFive{
+   font-size: 1.2rem;
+}
+.imgOne{
+    transform: scale(.8);
+}
+.divFour{
+    background: white;
+}
+.divFour1{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    margin: 3rem 15px 1.5rem 15px;
+
+    border-radius: 2%;
+    background: #3d3d3d;
+}
+.divFour2{
+    margin: 3rem 0 1.5rem 0;
+    border-radius: 2%;
+}
+.divFour2-1{
+    display:flex;
+    align-items: center;
+    border-bottom: 1px solid #edf1f2;
+
+}
+.divFour2-2{
+    border-bottom: 1px solid #edf1f2;
+    display: flex;
+    justify-content: space-between;
+}
+.divFour2-2-1{
+    border-right: 1px solid #edf1f2;
+}
+.divFour2-2-1,.divFour2-2-2{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    color: #999;
+    font-size: 1.2rem;
+    padding: .5rem 0 .5rem 1rem;
+}
+.ImgTwo{
+    transform: scale(.8);
+    margin: 0 .5rem;
+}
+.SpanOne{
+    color: red;
+    padding: 0 0 0 .5rem;
+}
+.divFour2-3{
+    display: flex;
+
+}
+.divFour2-3-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    border-right: 1px solid #edf1f2;
+    border-bottom: 1px solid #edf1f2;
+    color:#999;
+    font-size: 1.2rem;
+}
+.divFour2-3-2{
+    width: 60%;
+}
+.divFour2-3-21{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #edf1f2;
+}
+.pSix{
+    margin: 0;
+    padding: .5rem 1rem;
+    font-size: 1.2rem;
+}
+.pSeven{
+    margin: 0;
+    padding: 1rem 1.5rem;
+}
+.pEight{
+    color: #999;
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 1rem .5rem;
+}
+.divFour2-4{
+    border-bottom: 1px solid #edf1f2;
+}
+.SpanTwo{
+    color: red;
+}
+.bOne{
+    color: #000;
+}
+.divFour1:hover{
+    opacity: .6;
+    z-index: 100;
+}
+
+footer{
+    background: #26a26f;
+    color: white;
+}
+footer ul li {
+    display: inline-flex;
+    padding: 0 .5rem;
+}
+footer ul li a{
+    color: white;
+}
+.foot-one{
+    border-left: solid 1px white;
+    border-right: solid 1px white;
+}
+.a1{
+    margin: 1rem 3rem 0  0;
+    color: white;
+}
+.foot-box-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.p5{
+    padding: 2rem 0 0 0;
+}
+.foot-two{
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    border-top:solid 1px #32c086 ;
+}
+@media screen and (max-width:992px ){
+    .foot-box-1{
+        float: left;
+    }
+}
+@media screen and (max-width: 767px ){
+    .divFour{
+        width: 345px;
+        height: 378px;
+    }
+    .divFour1{
+        width: 345px;
+        height: 378px;
+        margin: 0 15px;
+    }
+    .divFour2{
+        width: 345px;
+        height: 378px;
+    }
+}
