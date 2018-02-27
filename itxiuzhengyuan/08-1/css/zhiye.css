@@ -164,7 +164,26 @@ header .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.activ
 
     border-radius: 2%;
     background: #3d3d3d;
+
+
+
 }
+
+.divFour1:hover{
+    opacity: .6;
+    z-index: 100;
+    transition: all 1s ease-in-out;
+   /* animation: myfirst 1s;*/
+    transform: skewX(180deg);
+}
+
+@keyframes myfirst{
+    from{transform: scale(0);}
+    to{transform: scale(1);}
+}
+
+
+
 .divFour2{
     margin: 3rem 0 1.5rem 0;
     border-radius: 2%;
@@ -246,10 +265,7 @@ header .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.activ
 .bOne{
     color: #000;
 }
-.divFour1:hover{
-    opacity: .6;
-    z-index: 100;
-}
+
 
 footer{
     background: #26a26f;
