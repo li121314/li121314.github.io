@@ -1,0 +1,194 @@
+/*初始化*/
+html{
+    font-size: 10px;
+}
+body{
+    background: #fafafa;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/**********顶部样式*****************/
+.top-1{
+    color: #29b078;
+    font-size: 1.6rem;
+    margin: .5rem 0;
+}
+.top-2{
+    margin: .5rem 0;
+    float: right;
+
+}
+/*使电话号码在屏幕缩小的时候隐藏 避免top图片下移一行*/
+@media screen and (max-width:992px ){
+    .top-left{
+        display: none;
+    }
+}
+header{
+    background: #29b078;/*设置header的背景颜色*/
+}
+header .navbar{
+    margin-bottom: 0;/*清除nav下外边距*/
+}
+header .navbar-default{
+    border: none;/* 清除nav的边框*/
+}
+header .container-fluid{
+    padding-left: 0; /*清除container-fluid的默认内边距使 ul宽度为100%*/
+    padding-right: 0;
+}
+
+.head-nav{
+    background: #29b078;/*设置导航的元素的背景颜色*/
+    border: none;
+}
+header .navbar-default .navbar-nav>li>a{
+    color: white; /**设置a标签的默认样式**/
+}
+header .navbar-default .navbar-nav>li>a:hover{
+    color: white;
+    border-bottom: .3rem solid white; /**设置鼠标移动到a标签的样式*/
+    background: none;
+}
+
+/*设置首页标签的样式*/
+.a-active{
+    border-bottom: .3rem solid white;
+}
+/*清除bootstrap 第一个a标签的默认样式*/
+header .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    color: white;
+    background: none;
+}
+.ImgOne{
+    transform: scale(.8);
+}
+.nav-A{
+    padding: 0;
+}
+
+.div1{
+    display: flex;
+    align-items: center;
+    height: 5rem;
+
+}
+.aOne,.aOne:link,.aOne:visited,.aOne:hover{
+    color: #000;
+    text-decoration: none;
+}
+.aTwo,.aTwo:link,.aTwo:visited,.aTwo:hover{
+    text-decoration: none;
+    color:#29b078;
+}
+.div2-1{
+    border: 1px #ededed solid;
+    box-shadow:0 0 15px #ededed;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+}
+
+.div2-1-1{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    width: 100%;
+    border-bottom: 1px solid #e6e6e6;
+}
+.ul1 li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+.div2-1-2{
+    width: .8rem;
+    height: .8rem;
+    border: 1px solid #ff640c;
+    border-radius: 50%;
+
+}
+
+.a11{
+    color: #29b078;
+    margin: .5rem ;
+}
+.ul1>li:hover .a11{
+    text-decoration: none;
+    color: #ff640c;
+}
+.ul1>li:hover .div2-1-2{
+    background: #f9a372;
+}
+.div2-2{
+    border: 1px #ededed solid;
+    box-shadow:0 0 15px #ededed;
+    background: white;
+    padding: 2rem 4rem;
+}
+.div2-2-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #e6e6e6;
+}
+.div2-2-1>p{
+    line-height: 3rem;
+    color: #999999;
+}
+.div2-2-2>p{
+    line-height: 3rem;
+    color: #999;
+    text-indent: 2rem;
+    padding: 4rem 0;
+}
+footer{
+    background: #26a26f;
+    color: white;
+}
+footer ul li {
+    display: inline-flex;
+    padding: 0 .5rem;
+}
+footer ul li a{
+    color: white;
+}
+.foot-one{
+    border-left: solid 1px white;
+    border-right: solid 1px white;
+}
+.a1{
+    margin: 1rem 3rem 0  0;
+    color: white;
+}
+.foot-box-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.p5{
+    padding: 2rem 0 0 0;
+}
+.foot-two{
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    border-top:solid 1px #32c086 ;
+}
+@media screen and (max-width:992px ){
+    .foot-box-1{
+        float: left;
+    }
+}
