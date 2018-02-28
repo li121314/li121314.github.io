@@ -135,6 +135,7 @@ header .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.activ
     box-shadow:0 0 15px #ededed;
     background: white;
     padding: 2rem 4rem;
+    margin: 0 0 2rem 0;
 }
 .div2-2-1{
     display: flex;
