@@ -300,7 +300,8 @@ header .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.activ
     margin-top: 5rem ;
 }
 .art6 ul li a:hover{
-    text-decoration: #26a26f;
+    border-bottom: 1px solid #26a26f;
+    text-decoration: none;
 }
 
 
