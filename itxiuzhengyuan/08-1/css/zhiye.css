@@ -11,6 +11,9 @@ body{
 }
 
 /**********顶部样式*****************/
+.top{
+    background: #fff;
+}
 .top-1{
     color: #29b078;
     font-size: 1.6rem;
@@ -29,6 +32,7 @@ body{
 }
 header{
     background: #29b078;/*设置header的背景颜色*/
+    height: auto;
 }
 header .navbar{
     margin-bottom: 0;/*清除nav下外边距*/
@@ -46,11 +50,17 @@ header .container-fluid{
     border: none;
 }
 header .navbar-default .navbar-nav>li>a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
     color: white; /**设置a标签的默认样式**/
+
 }
 header .navbar-default .navbar-nav>li>a:hover{
+
     color: white;
-    border-bottom: .3rem solid white; /**设置鼠标移动到a标签的样式*/
+    border-bottom: 3px solid white; /**设置鼠标移动到a标签的样式*/
     background: none;
 }
 /*设置首页标签的样式*/
@@ -59,14 +69,29 @@ header .navbar-default .navbar-nav>li>a:hover{
 }
 /*清除bootstrap 第一个a标签的默认样式*/
 header .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+
     color: white;
+    background: none;
+}
+
+
+.btn1{
+    border: none;
+
+}
+.navbar-default .btn1:hover,.navbar-default .btn1:focus{
     background: none;
 }
 
 .ImgOne{
     transform: scale(.8);
+
 }
 .nav-A{
+    display: flex;
+    align-items: center;
+    height: 5rem;
+
     padding: 0;
 }
 /**********给首页职业添加样式************/
@@ -152,6 +177,7 @@ header .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.activ
 }
 .divFour{
     background: white;
+    margin-bottom:5rem;
 }
 .divFour1{
     position: absolute;

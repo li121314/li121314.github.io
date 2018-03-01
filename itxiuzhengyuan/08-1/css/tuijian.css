@@ -11,6 +11,10 @@ body{
 }
 
 /**********顶部样式*****************/
+
+.top{
+    background: #fff;
+}
 .top-1{
     color: #29b078;
     font-size: 1.6rem;
@@ -46,6 +50,10 @@ header .container-fluid{
     border: none;
 }
 header .navbar-default .navbar-nav>li>a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
     color: white; /**设置a标签的默认样式**/
 }
 header .navbar-default .navbar-nav>li>a:hover{
@@ -63,10 +71,22 @@ header .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.activ
     color: white;
     background: none;
 }
+
+.btn1{
+    border: none;
+
+}
+.navbar-default .btn1:hover,.navbar-default .btn1:focus{
+    background: none;
+}
+
 .ImgOne{
     transform: scale(.8);
 }
 .nav-A{
+    display: flex;
+    align-items: center;
+    height: 5rem;
     padding: 0;
 }
 
