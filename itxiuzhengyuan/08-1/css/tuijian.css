@@ -81,7 +81,8 @@ header .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.activ
 }
 .btn1{
     border: none;
-
+    padding: 12px 10px;
+    margin-bottom: 9px;
 }
 
 .navbar-default .btn1:hover,.navbar-default .btn1:focus{
