@@ -55,11 +55,15 @@ header .navbar-default .navbar-nav>li>a{
     justify-content: center;
     height: 5rem;
     color: white; /**设置a标签的默认样式**/
+    padding-top: .3rem;
+    padding-bottom: .3rem;
 }
 header .navbar-default .navbar-nav>li>a:hover{
     color: white;
     border-bottom: .3rem solid white; /**设置鼠标移动到a标签的样式*/
     background: none;
+   padding-top: -.3rem;
+    padding-bottom: 0;
 }
 /*设置首页标签的样式*/
 .a-active{
@@ -71,9 +75,15 @@ header .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.activ
     background: none;
 }
 
+.navbar-default .navbar-toggle .icon-bar{
+    background: #fff;!important;
+}
+
 
 .btn1{
     border: none;
+    padding: 12px 10px;
+    margin-bottom: 9px;
 
 }
 .navbar-default .btn1:hover,.navbar-default .btn1:focus{
@@ -193,6 +203,9 @@ header .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.activ
     }
     .foot-box-1{
         float: left;
+    }
+    .zaixian{
+        border-left:none;
     }
 
 }
@@ -335,7 +348,7 @@ footer ul li a{
 }
 .foot-two{
     width: 100%;
-    height: 2rem;
+    height: auto;
     line-height: 2rem;
     text-align: center;
     border-top:solid 1px #32c086 ;
