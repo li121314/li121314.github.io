@@ -1,0 +1,423 @@
+html{
+    font-size: 10px;
+}
+
+
+
+/****************************************************************************
+   思路：定义一个外衣包裹网格，外衣的颜色。直接使用网格系统导致顶部颜色没有达到最大宽度
+ *******************************************************************************/
+ .top{
+     display: flex;
+     align-items: center;
+    background: #1d7ad9;
+    height: 4rem;
+    width: 100%;
+}
+
+ /**************************************************************
+ 定义top-left
+  **************************************************************/
+.top-left{
+    display: flex;
+    align-items: center;
+    height: 4rem;
+}
+ /*************************
+ 定义联系电话字体样式
+  *************************/
+ .top-left-p{
+     color: white;
+     margin-bottom: 0;
+ }
+
+/********************************************************
+设置.top-right的样式 用flex布局 定义在末尾
+**************************************************** */
+ .top-right{
+     display: flex;
+     justify-content: flex-end;
+ }
+
+ /****************************************************
+ 设置top-right里a标签
+  ******************************************************/
+.top-right-a1{
+    display: inline-block;
+    color: white;
+    height: 4rem;
+    width: 5rem;
+    line-height: 4rem;
+    text-align: center;
+    border-left: 1px solid white;
+}
+.top-right-a2{
+    display: inline-block;
+    color: #000;
+    background: white;
+    height: 4rem;
+    width: 10rem;
+    line-height: 4rem;
+    text-align: center;
+}
+.top-right-a1:hover{
+   
+    text-decoration: none;
+
+}
+.top-right-a2:hover{
+
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1170px){
+    .top-left{
+        display: none;
+    }
+}
+
+/*************************************
+*****************************
+*****导航菜单*****************
+ ***************************/
+header{
+
+    background: #f9f9f9;
+
+}
+header .head-nav ul li .head-a1{
+    background: white;
+    border: none;
+    box-shadow: 1px 1px 1px #e6e6e6;
+    color: #000;
+    margin: 2rem 1rem;
+    font-size: 1.4rem;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+}
+header .head-nav ul li .a1-active{
+    background: #1d7ad9;
+    color: white;
+}
+header .head-nav ul li .head-a1:hover{
+    background: #1d7ad9;
+    color: white;
+}
+.head-nav{
+    margin-bottom: 0;
+    border: none;
+}
+
+
+/********************************
+***********进度条****************
+ ********************************/
+.div1box{
+    display: flex;
+}
+.div1wrap{
+    width: 25%;
+    display: inline-block;
+    border: none;
+}
+.div1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    margin: 1.5rem 0;
+}
+.div1-1{
+    height: .4rem;
+    width: 100%;
+    background: #cccccc;
+}
+.div1-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background: #cccccc;
+    color: white;
+
+}
+.div1-3{
+    text-align: center;
+    margin: 2rem 0;
+    color: #cccccc;
+}
+
+.div1wrap:hover .div1-1,.div1wrap:hover .div1-2{
+    background: #ff7f02;
+}
+.div1wrap:hover .div1-3{
+    color:#ff7f02;
+}
+
+/**************************************************
+***************请您按照以下步骤来定制您的纸箱*********
+ **************************************************/
+.p1{
+    border-left: solid 4px #1d7ad9;
+    padding-left: 1rem;
+    font-size: 1.8rem;
+    color: #000;
+}
+
+.div2{
+    background: #f2f2f2;
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    border-top-left-radius:1rem;
+    border-top-right-radius:1rem;
+    padding-left: 1rem;
+}
+.p2{
+    margin-bottom: 0;
+    margin-left: 1rem;
+    color: #1d7ad9;
+}
+.bg1{
+    background: #fbfcff;
+}
+
+.div3{
+    display: flex;
+    align-items: center;
+    height: 6rem;
+    border-left: 1px solid #e8e8e8;
+    padding-left: 4rem;
+
+}
+.radio {
+    display: inline-block;
+}
+label {
+    display: flex;
+    align-items: center;
+
+    padding: 10px 10px;
+    line-height: 20px;
+    position: relative;
+
+
+    cursor: pointer;
+}
+
+.radio .option {
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    position: relative;
+}
+.option-span {
+    position: absolute;
+    top:4px;
+    left: 4px;
+    width: 5px;
+    height: 5px;
+    background: #fff;
+    border-radius: 50%;
+}
+.radio input[type="radio"] {
+    display: none;
+}
+input[type="radio"]:checked+.option{
+    border: 1px solid #1d7ad9;
+    background: #1d7ad9;
+}
+
+.span1{
+    color:#666666;
+    font-size: 1.2rem;
+    padding-left: 1rem;
+}
+
+.div4{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 2rem;
+    height: 6rem;
+    border-right: 1px solid #e8e8e8;
+
+}
+.div4-1{
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border: 1px solid #1d7ad9;
+    border-radius: 3px;
+    background: #1d7ad9;
+    margin-right: -8px;
+    margin-left: 15px;
+}
+.div4-1 .caret{
+    border-top: 4px dashed white;
+}
+.btn1{
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 0;
+    border: 1px solid #ccc;
+    color:#666;
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 850px){
+    .div3{
+        height: 10rem;
+    }
+   .div4{
+       height: 10rem;
+   }
+   .radio{
+       margin-top: 0;
+       margin-bottom: 0;
+       display: block;
+   }
+   .div311{
+
+   }
+
+   .bg1box{
+       height: 25rem;
+   }
+}
+
+.div21{
+    border-radius: 0;
+}
+
+.div311 .radio {
+    display: flex;
+    align-items: center;
+    margin: 0 ;
+}
+.div311 .radio label{
+    padding: 5px 10px;
+}
+.p3{
+    display: inline-block;
+    margin-bottom: 0;
+    color: #666;
+    font-size: 1.2rem;
+}
+.div5-1{
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+.input1{
+    width: 50px;
+    margin: 0 0 0 1rem;
+}
+
+.div8{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 20rem;
+    border: 1px solid #e8e8e8;
+}
+.btn2{
+    background: #e15053;
+    width: 10rem;
+    color: white;
+}
+
+.foot{
+    background: #f9f9f9;
+    margin-top: 5rem;
+}
+.p4{
+    margin: 5rem 0;
+    color: #999999;
+    font-size: 1.6rem;
+}
+.div9{
+    margin: 5rem 0;
+}
+.div9-2{
+    margin-top: 1rem;
+}
+.div9-1 span,.div9-2 span{
+    margin: 5rem .5rem;
+
+}
+.foot-a1{
+    color:#999;
+
+}
+.foot-a1active{
+    color: #1d7ad9;
+}
+.foot-a1:hover{
+    text-decoration: none;
+    color:#1d7ad9;
+}
+.div10{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 5rem;
+}
+.p5{
+    color:#999;
+}
+.bot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1d7ad9;
+}
+.p6{
+    text-align: center;
+    color: white;
+    margin-bottom: 0;
+    padding: 1rem 0;
+}
+@media screen and (max-width: 850px){
+    .div311 .radio{
+      display: block;
+    }
+    .div311 .radio label{
+        display: flex;
+        justify-content: center;
+    }
+    .div311{
+        height: 25rem;
+    }
+    .div411{
+        height: 25rem;
+    }
+    .div5-1{
+        margin: .5rem 0;
+    }
+    .bg13{
+        height: 25rem;
+    }
+    .div6{
+        height: 25rem;
+    }
+    .div7{
+        height: 25rem;
+    }
+
+}
+@media screen and (max-width: 970px){
+    .div10{
+        justify-content: flex-start;
+    }
+}
