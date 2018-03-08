@@ -8,7 +8,7 @@ html{
    思路：定义一个外衣包裹网格，外衣的颜色。直接使用网格系统导致顶部颜色没有达到最大宽度
  *******************************************************************************/
  .top{
-     display: flex;
+
      align-items: center;
     background: #1d7ad9;
     height: 4rem;
@@ -74,6 +74,7 @@ html{
     .top-left{
         display: none;
     }
+
 }
 
 /*************************************
@@ -193,7 +194,7 @@ header .head-nav ul li .head-a1:hover{
     align-items: center;
     height: 6rem;
     border-left: 1px solid #e8e8e8;
-    padding-left: 4rem;
+    padding-left: 1rem;
 
 }
 .radio {
@@ -305,7 +306,7 @@ input[type="radio"]:checked+.option{
     margin: 0 ;
 }
 .div311 .radio label{
-    padding: 5px 10px;
+    padding: 5px 20px;
 }
 .p3{
     display: inline-block;
@@ -388,6 +389,13 @@ input[type="radio"]:checked+.option{
     margin-bottom: 0;
     padding: 1rem 0;
 }
+.div3 .radio{
+    margin-bottom: 0;
+}
+.btn2:hover{
+    background: #e15053;
+    color: white;
+}
 @media screen and (max-width: 850px){
     .div311 .radio{
       display: block;
@@ -416,7 +424,7 @@ input[type="radio"]:checked+.option{
     }
 
 }
-@media screen and (max-width: 970px){
+@media screen and (max-width: 1092px){
     .div10{
         justify-content: flex-start;
     }
