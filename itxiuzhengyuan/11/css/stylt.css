@@ -101,7 +101,7 @@ main .input1 {
   width: 100%;
   height: 5rem;
   list-style: none;
-  background: #5fc0cd;
+  background: #5ac0ce;
   color: white;
   font-size: 2.4rem;
   border: none;
@@ -119,7 +119,7 @@ main .input1 {
   position: absolute;
   right: 2%;
   text-decoration: none;
-  color: #5fc0cd;
+  color: #5ac0ce;
   font-size: 2rem; }
 
 .div1-a {
@@ -127,7 +127,7 @@ main .input1 {
   position: absolute;
   left: 2%;
   text-decoration: none;
-  color: #5fc0cd;
+  color: #5ac0ce;
   font-size: 2rem; }
 
 .div2 {

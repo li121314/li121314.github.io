@@ -1,3 +1,7 @@
+
+$color1:#5ac0ce;
+$color2:#eff0f4;
+
 html{
   font-size: 10px;
 
@@ -9,13 +13,13 @@ html{
 }
 
 body{
-  background: #eff0f4;
+  background: $color2;
   padding: 0;
   margin: 0;
 }
 
 header{
-  background: #5ac0ce;
+  background: $color1;
   height: 5rem;
   width: 100%;
   position: fixed;
@@ -125,7 +129,7 @@ main .input1{
   width: 100%;
   height: 5rem;
   list-style: none;
-  background: #5fc0cd;
+  background: $color1;
   color: white;
   font-size: 2.4rem;
   border: none;
@@ -146,7 +150,7 @@ main .input1{
   right: 2%;
 
   text-decoration: none;
-  color:#5fc0cd;
+  color:$color1;
   font-size: 2rem;
 
 }
@@ -157,7 +161,7 @@ main .input1{
   left: 2%;
 
   text-decoration: none;
-  color:#5fc0cd;
+  color:$color1;
   font-size: 2rem;
 }
 
