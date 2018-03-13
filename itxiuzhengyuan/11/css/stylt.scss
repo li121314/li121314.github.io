@@ -1,5 +1,6 @@
 
 $bgcolor:#5ac0ce;
+$aColor:#ccc;
 html{
   font-size: 10px;
 }
@@ -95,14 +96,14 @@ footer{
   margin-top: 10rem;
 
   .Div2-1{
-    background: #ccc;
+    background: $aColor;
     border:none;
     height: 2px;
     width: 30%;
   }
   .Div2-2{
     font-size:1.2rem;
-    color: #ccc;
+    color: $aColor;
   }
 
 }
@@ -111,7 +112,7 @@ footer{
   justify-content: space-between;
   a{
     text-decoration: none;
-    color: #ccc;
+    color: $aColor;
     margin: 1rem;
   }
 }
