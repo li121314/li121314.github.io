@@ -43,7 +43,8 @@ header {
   margin-top: 1rem; }
   .input1 img {
     transform: scale(0.5);
-    margin-left: 3rem; }
+    margin-left: 3rem;
+    width: 30px; }
   .input1 input {
     padding: .5rem 0 .5rem 1rem;
     border: none;
@@ -95,7 +96,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 5rem 20%;
+  margin: 5rem 20% 0 20%;
   padding-bottom: 10%; }
   .Div3 .Div3-1 {
     flex-direction: column; }
