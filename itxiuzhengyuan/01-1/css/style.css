@@ -1,0 +1,14 @@
+.wrap{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    margin: 0 auto;
+    width: 70%;
+    border: solid 1px #ccc;
+}
+.div1{
+
+    padding: 11%;
+    margin: 2%;
+    background: aqua;
+}
