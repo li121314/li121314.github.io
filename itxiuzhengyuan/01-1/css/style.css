@@ -7,8 +7,8 @@
     border: solid 1px #ccc;
 }
 .div1{
-
-    padding: 11%;
-    margin: 2%;
+    padding: 15%;
+    margin: 2% 1% 1% 2%;
     background: aqua;
+    float: left;
 }
