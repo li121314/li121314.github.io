@@ -2,17 +2,13 @@
 html{
     font-size: 10px;
 }
-*{
-    margin: 0;
-    padding: 0;
-}
 
 body{
     margin: 0;
     padding: 0;
     background: url("../img/bg.png");
 }
-header img{
+.img1{
     display: block;
     margin-top: 2rem;
     margin-left: 2rem;
@@ -20,10 +16,10 @@ header img{
     height: 3rem;
 }
 
-section{
+.sec{
     margin-top: 5rem;
 }
-section header img{
+.img2{
     display: block;
     margin: 0 auto;
     width: 10rem;
@@ -31,7 +27,7 @@ section header img{
 }
 
 
-section  p{
+.p1{
     display: block;
    /* text-align: center;*/
     color: white;
@@ -40,14 +36,14 @@ section  p{
     margin: 5rem auto;
 }
 
-section article {
+.art {
     display: inline-block;
     margin: 0 auto;
     padding: revert;
 }
 
 
-section article img{
+.img3{
     display: block;
     width: 4rem;
     height: 4rem;
@@ -55,11 +51,12 @@ section article img{
     /*position: absolute;*/
 }
 
-section article span{
+.span1{
     display: block;
     text-align: center;
     color: white;
     font-size: 1.6rem;
+    margin-top: 1rem;
 }
 
 .left_logo{
