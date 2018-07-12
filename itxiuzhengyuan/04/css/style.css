@@ -54,6 +54,7 @@ header div{
     top:0rem;
 }
 
+
 main{
     width: 100%;
    /* margin: 1rem;*/
@@ -77,6 +78,8 @@ main .input1{
     width: 100%;
 }
 
+
+
 .main_iphon{
     position: absolute;
     top:1.8rem;
@@ -84,9 +87,10 @@ main .input1{
     width: 1rem;
     height: 1.5rem;
     border:none ;
-    border-right:solid #eaedee 2px ;
+
     padding-right: 2%;
 }
+
 .main_in{
     position: absolute;
     left: 7%;
@@ -99,7 +103,7 @@ main .input1{
     text-indent: 3%;
     width: 50%;
     font-size: 1.6rem;
-
+    border-left: solid 2px #ccc;
 }
 
 .input2{
@@ -141,7 +145,6 @@ main .input1{
     font-size: 2rem;
 
 }
-
 
 
 
