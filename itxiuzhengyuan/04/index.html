@@ -8,9 +8,9 @@
 </head>
 <body>
 <header>
-    <div class="header_left"><span><a href>关闭</a></span></div>
+    <div class="header_left"><a href>关闭</a></div>
     <div class="header_cen"><span>登陆</span></div>
-    <div class="header_right"><span><a href>注册</a></span></div>
+    <div class="header_right"><a href>注册</a></div>
 
 
 
@@ -20,7 +20,7 @@
        <div class="input1">
            <form action="">
                <img class="main_iphon" src="img/iphone.png" >
-               <input type="text" class="main_in" placeholder="请输入手机号">
+               <input type="text" onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')" maxlength="11" class="main_in"  placeholder="请输入手机号">
            </form>
         </div>
         <div class="input2">
