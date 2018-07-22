@@ -103,7 +103,7 @@ main{
     content: "";
     width: 1rem;
     height: 1rem;
-    margin-right: 2rem;
+    margin-right: 1rem;
     background: url("../img/xin.png") no-repeat 100% / 100%;
 
     display: inline-block;
@@ -188,7 +188,7 @@ main{
 
 
     width: 97%;
- 
+
     border-bottom: 1px solid #e1e5e7;
     line-height: 5rem;
     padding-left: 3%;
