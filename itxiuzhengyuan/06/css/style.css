@@ -60,9 +60,9 @@ header .header_one{
     right: 2%;
     width: 2rem;
     height: 2rem;
-    background-image: url("../img/two.png");
-    background-position:0 0 ;
-    background-size: cover;
+    background: url("../img/two.png") no-repeat 0 0 / cover;
+
+    
 }
 
 main{
@@ -279,7 +279,7 @@ footer{
 
 .footerbox{
 
-   
+
     text-align:center;
     color: #5fc0cd;
 }
@@ -300,9 +300,8 @@ footer{
 .img3{
     width: 3rem;
     height: 3rem;
-    background: url("../img/2.png") no-repeat;
-    background-position: 0 -5rem;
-    background-size:cover;
+    background: url("../img/2.png") no-repeat 0 -5rem /cover;
+
     transform: scale(1);/*定义 2D 缩放转换。*/
 
 }
@@ -310,14 +309,13 @@ footer{
 .img11{
     width: 3rem;
     height: 3rem;
-    background: url("../img/2.png") no-repeat ;
-    background-position: 0 -12rem;
-    background-size: cover;
+    background: url("../img/2.png") no-repeat 0 -12rem /cover;
+
 }
 .img13{
     width: 3rem;
     height: 3rem;
-    background: url("../img/2.png") no-repeat ;
-    background-position: 0 -16rem;
-    background-size: cover;
+
+    background: url("../img/2.png") no-repeat 0 -16rem / cover;
+
 }
