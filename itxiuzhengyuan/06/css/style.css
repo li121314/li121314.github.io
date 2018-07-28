@@ -114,9 +114,10 @@ main a{
 main ul li,.main-top ul li{
     list-style: none;
     background: white;
-    margin: 0 auto;
 
     width: 33%;
+
+
 
 }
 
@@ -146,8 +147,8 @@ main ul li,.main-top ul li{
 }
 
 .none1 li a:hover {
-    background:#5fc0cd  ;
-    color: white;
+
+    color: #ccc;
 }
 .main-top-ul{
     padding-left: 0;
@@ -172,6 +173,7 @@ main ul li,.main-top ul li{
     display: flex;
     white-space: nowrap;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .sanjiao{
