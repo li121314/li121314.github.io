@@ -56,13 +56,14 @@ header .header_one{
 }
 
 .header_two{
+    display: block;
     position: absolute;
     right: 2%;
     width: 2rem;
     height: 2rem;
     background: url("../img/two.png") no-repeat 0 0 / cover;
 
-    
+
 }
 
 main{
@@ -118,19 +119,27 @@ main ul li{
 }
 
 .clearone{
-    padding:1.5rem 0 2rem 0;
+
+    height: 5rem;
+    line-height: 5rem;
 
     float: left;
+    position: relative;
+
 
 }
 
 .clearone:hover .none1{
-    display: block;
+    display:block;
+
+
 
 }
 .none1 li a{
     text-decoration: none;
     display: block;
+    width: 100%;
+    text-align: center;
 
 }
 
@@ -148,10 +157,15 @@ main ul li{
 .none1{
     display:none;
     padding-left: 0;
-    padding-top: .5rem;
+
+    position: absolute;
+    width: 100%;
+    background: white;
 }
 .none1 li{
-    display: block;
+    display: flex;
+    white-space: nowrap;
+    justify-content: center;
 }
 
 .sanjiao{
@@ -191,7 +205,7 @@ main ul li{
     border-bottom: 1px solid #e1e5e7;
 }
 .centent-left{
-    width: 50%;
+    width: 60%;
 }
 .centent-left-top{
     display: flex;
@@ -277,6 +291,10 @@ footer{
     height: 5rem;
 }
 
+.footerone a{
+    text-decoration: none;
+    color: #5fc0cd;
+}
 .footerbox{
 
 
@@ -300,22 +318,22 @@ footer{
 .img3{
     width: 3rem;
     height: 3rem;
-    background: url("../img/2.png") no-repeat 0 -5rem /cover;
+    background: url("../img/2.png") no-repeat 0 -5.3rem /cover;
 
     transform: scale(1);/*定义 2D 缩放转换。*/
-
+    display: block;
 }
 
 .img11{
     width: 3rem;
     height: 3rem;
     background: url("../img/2.png") no-repeat 0 -12rem /cover;
-
+    display: block;
 }
 .img13{
     width: 3rem;
     height: 3rem;
-
+    display: block;
     background: url("../img/2.png") no-repeat 0 -16rem / cover;
 
 }
