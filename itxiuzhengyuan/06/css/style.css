@@ -4,7 +4,7 @@ html{
 
 body{
     min-width: 320px;
-    padding: 0;
+
     margin: 0;
     }
 
@@ -159,7 +159,7 @@ main ul li,.main-top ul li{
 .none1{
     display:none;
     padding-left: 0;
-
+    border: 1px solid #ccc;
     position: absolute;
     width: 100%;
     background: white;
