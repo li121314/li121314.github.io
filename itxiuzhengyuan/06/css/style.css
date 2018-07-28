@@ -6,10 +6,7 @@ body{
     min-width: 320px;
 }
 
-*{
-    padding: 0;
-    margin: 0;
-}
+
 
 header{
     position: fixed;
@@ -114,19 +111,32 @@ main a{
 main ul li{
     list-style: none;
     background: white;
-    margin: 0;
+    margin: 0 auto;
+    display: inline-block;
+    width: 33%;
 
 }
 
 .clearone{
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 1.5rem;
-    padding-bottom: 2rem;
+    padding:1.5rem 0 2rem 0;
 
+    float: left;
 
 }
 
+.clearone:hover .none1{
+    display: block;
+
+}
+.none1 li a{
+    text-decoration: none;
+    display: block;
+
+}
+
+.main-top-ul{
+    padding-left: 0;
+}
 
 .main-top_center{
     display: block;
@@ -137,8 +147,11 @@ main ul li{
 
 .none1{
     display:none;
-
+    padding-left: 0;
     padding-top: .5rem;
+}
+.none1 li{
+    display: block;
 }
 
 .sanjiao{
@@ -151,15 +164,15 @@ main ul li{
     border-color: #afbac0 transparent transparent transparent;
     top:2.1rem;
     line-height: 2rem;
-
+    margin-left: .5rem;
 }
 
 .img{
     display: inline-block;
     width: 30px;
     height: 25px;
-    background-image: url("../img/two.png");
-    background-position:-8px -107px ;
+    background: url("../img/two.png") -8px -107px;
+
     flex: 0 0 30px;
     transform: scale(0.6);/*定义 2D 缩放转换。*/
 }
@@ -220,8 +233,9 @@ main ul li{
     display: inline-block;
     width: 30px;
     height: 25px;
-    background-image: url("../img/two.png");
-    background-position:-8px -63px ;
+
+    background: url("../img/two.png") -8px -63px;
+
     flex: 0 0 30px;
     transform: scale(0.6);/*定义 2D 缩放转换。*/
 }
@@ -237,8 +251,8 @@ main ul li{
     display: inline-block;
     width: 30px;
     height: 30px;
-    background-image: url("../img/two.png");
-    background-position:-8px -216px ;
+    background: url("../img/two.png") -8px -216px;
+
     flex: 0 0 30px;
     transform: scale(0.5);/*定义 2D 缩放转换。*/
 }
@@ -265,7 +279,7 @@ footer{
 
 .footerbox{
 
-    width: 30px;
+   
     text-align:center;
     color: #5fc0cd;
 }
@@ -284,10 +298,26 @@ footer{
 }
 
 .img3{
-    width: 30px;
-    height: 30px;
-    background: url("../img/Write.png") no-repeat;
-    background-size:contain;
+    width: 3rem;
+    height: 3rem;
+    background: url("../img/2.png") no-repeat;
+    background-position: 0 -5rem;
+    background-size:cover;
     transform: scale(1);/*定义 2D 缩放转换。*/
 
+}
+
+.img11{
+    width: 3rem;
+    height: 3rem;
+    background: url("../img/2.png") no-repeat ;
+    background-position: 0 -12rem;
+    background-size: cover;
+}
+.img13{
+    width: 3rem;
+    height: 3rem;
+    background: url("../img/2.png") no-repeat ;
+    background-position: 0 -16rem;
+    background-size: cover;
 }

@@ -21,6 +21,8 @@ window.onload=function(){
            document.getElementById("header_right").style.color="#5fc0cd"
        }
 
+
+       /*
        var maintopleft=document.getElementById("main-top-left");
        maintopleft.onclick=function () {
            document.getElementById("navone").style.display="block";
@@ -44,7 +46,7 @@ window.onload=function(){
     maintopright.onmouseout=function () {
         document.getElementById("navthree").style.display="none";
     }
-
+*/
 
 }
 
