@@ -70,6 +70,9 @@ main {
       padding: 0;
       color: #ccc; }
 
+.div7 {
+  padding-bottom: 6rem; }
+
 footer {
   position: fixed;
   bottom: 0;
