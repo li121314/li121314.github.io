@@ -1,0 +1,182 @@
+html {
+  font-size: 10px; }
+
+body {
+  background: #29bde0; }
+
+header {
+  position: fixed;
+  width: 100%;
+  background: #29bde0;
+  z-index: 888; }
+  header .div1 {
+    height: 5rem;
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    z-index: 888;
+    background: #29bde0; }
+    header .div1 .div1-1 {
+      width: 3.5rem;
+      height: 3rem;
+      border: 1px solid white;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      header .div1 .div1-1 span {
+        display: block;
+        width: 3rem;
+        height: .3rem;
+        background: white; }
+        header .div1 .div1-1 span:before {
+          display: block;
+          width: 3rem;
+          height: .3rem;
+          background: white;
+          content: "";
+          position: absolute;
+          bottom: 7rem; }
+        header .div1 .div1-1 span:after {
+          display: block;
+          width: 3rem;
+          height: .3rem;
+          background: white;
+          content: "";
+          position: absolute;
+          top: 3rem; }
+    header .div1 .div1-2 {
+      font-size: 2rem;
+      color: white; }
+    header .div1 .div1-3 {
+      width: 3rem;
+      height: 3rem;
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      header .div1 .div1-3 span {
+        display: block;
+        background: white;
+        height: .2rem;
+        width: 2rem;
+        transform: rotate(45deg); }
+        header .div1 .div1-3 span:after {
+          display: block;
+          background: white;
+          height: .2rem;
+          width: 2rem;
+          transform: rotate(90deg);
+          content: ""; }
+  header .div2 {
+    width: 100%;
+    height: 4rem;
+    background: #b9e9f5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%; }
+    header .div2 span {
+      font-size: 1.6rem; }
+    header .div2 .btn1 {
+      width: 3rem;
+      height: 3rem;
+      border-radius: 50%;
+      background: #fbb435; }
+      header .div2 .btn1 i {
+        color: white;
+        font-size: 1.4rem; }
+  header .i2 {
+    position: absolute;
+    font-size: 3rem;
+    color: #b9e9f5;
+    top: 8rem;
+    margin-left: 5%; }
+
+main {
+  padding-top: 10rem;
+  padding-bottom: 10rem; }
+  main .div3 {
+    margin: 2rem 0 0 5rem; }
+    main .div3 span {
+      color: white;
+      font-size: 1.6rem; }
+  main .wrap {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto; }
+    main .wrap .box {
+      border: 5px solid white;
+      width: 25vw;
+      height: 25vw;
+      margin: 4vw 2vw; }
+      main .wrap .box .box1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 5vw;
+        background: #f5c97b;
+        width: 100%;
+        height: 70%; }
+      main .wrap .box .box2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 3vw;
+        background: #83b09a;
+        width: 100%;
+        height: 30%; }
+      main .wrap .box .box3 {
+        width: 100%;
+        height: 5vw;
+        display: none;
+        justify-content: space-between;
+        margin-top: 2vw; }
+        main .wrap .box .box3 div {
+          display: inline-block; }
+        main .wrap .box .box3 .img1 {
+          width: 5vw;
+          height: 5vw;
+          background: url("../img/art-two.png") no-repeat 0 0;
+          background-size: 460% 100%; }
+        main .wrap .box .box3 .img2 {
+          width: 5vw;
+          height: 5vw;
+          background: url("../img/art-two.png") no-repeat -6vw 0vw;
+          background-size: 460% 100%; }
+        main .wrap .box .box3 .img3 {
+          width: 5vw;
+          height: 5vw;
+          background: url("../img/art-two.png") no-repeat -12vw 0vw;
+          background-size: 460% 100%; }
+        main .wrap .box .box3 .img4 {
+          width: 5vw;
+          height: 5vw;
+          background: url("../img/art-two.png") no-repeat -18vw 0vw;
+          background-size: 460% 100%; }
+
+footer {
+  height: 7rem;
+  width: 100%;
+  background: #29bde0;
+  position: fixed;
+  bottom: 0;
+  border-top: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  footer .a1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    height: 5rem;
+    background: #fbb435;
+    color: white;
+    font-size: 1.8rem; }
+    footer .a1:hover {
+      background: #fbb435; }
+
+/*# sourceMappingURL=toupiao.css.map */
