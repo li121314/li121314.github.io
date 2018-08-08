@@ -6,13 +6,15 @@ html{
 header{
   position: fixed;
   z-index: 100;
-  height: 5rem;
-  width: 100%;
-  background: #29bde0;
   display: flex;
   justify-content:space-between;
   align-items: center;
+  height: 5rem;
+  width: 100%;
   padding: 0 3%;
+  border-bottom: solid 1px #74d4eb ;
+  background: #29bde0;
+
   .div1{
     width: 2.5rem;
     height: 2.5rem;
@@ -35,27 +37,28 @@ header{
 }
 
 main{
-  background:#29bde0;
   width: 100%;
   padding-top: 5rem;
   padding-bottom: 1rem;
+  background:#29bde0;
 
   .div3{
+    margin: 2rem auto;
     width: 20rem;
     height: 13rem;
     background:url("../img/header-one.png") no-repeat;
     background-size: contain;
-    margin: 2rem auto;
+
   }
   .div4{
+    padding: 0 10%;
     text-align: center;
     color:#ffc865;
     font-size: 1.6rem;
   }
 
   .div5{
-    width: 18rem;
-
+    width: 19rem;
     margin: 2rem auto;
     span{
       color: white;
@@ -104,31 +107,33 @@ main{
 }
 
 footer{
+
   position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   bottom: 0;
   background: rgba(153,233,240,0.8);
   height: 5rem;
   width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+
 
   .a1{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #f66f6f;
     width: 45%;
     height: 4rem;
     font-size: 1.8rem;
+    background: #f66f6f;
   }
   .a2{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #fbb435;
     width: 45%;
     height: 4rem;
     font-size: 1.8rem;
+    background: #fbb435;
   }
 }

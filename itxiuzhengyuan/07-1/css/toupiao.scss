@@ -8,47 +8,52 @@ body{
 
 header{
   position: fixed;
+  z-index: 888;
   width: 100%;
   background: #29bde0;
-  z-index: 888;
+
+
   .div1{
-    height: 5rem;
-    width: 94%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
     z-index: 888;
+    margin: 0 auto;
+    height: 5rem;
+    width: 94%;
     background: #29bde0;
     .div1-1{
-      width: 3.5rem;
-      height: 3rem;
-      border: 1px solid white;
       display: flex;
       justify-content: center;
       align-items: center;
+      width: 3rem;
+      height: 2.5rem;
+      border: 1px solid white;
+
       span{
         display: block;
-        width: 3rem;
+        width: 2.5rem;
         height: .3rem;
         background: white;
         &:before{
-          display: block;
-          width: 3rem;
-          height: .3rem;
-          background: white;
-          content: "";
           position: absolute;
           bottom: 7rem;
-        }
-        &:after{
           display: block;
-          width: 3rem;
+          width: 2.5rem;
           height: .3rem;
           background: white;
           content: "";
+
+        }
+        &:after{
           position: absolute;
           top: 3rem;
+          display: block;
+          width: 2.5rem;
+          height: .3rem;
+          background: white;
+          content: "";
+
         }
       }
     }
@@ -84,13 +89,15 @@ header{
   }
 
   .div2{
-    width: 100%;
-    height: 4rem;
-    background: #b9e9f5;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 5%;
+    width: 100%;
+    height: 4rem;
+    background: #b9e9f5;
+
+
     span{
 
       font-size: 1.6rem;
@@ -110,10 +117,11 @@ header{
 
   .i2{
     position: absolute;
-    font-size: 3rem;
-    color: #b9e9f5;
     top: 8rem;
     margin-left: 5%;
+    font-size: 3rem;
+    color: #b9e9f5;
+
   }
 }
 
@@ -121,19 +129,18 @@ main{
     padding-top: 10rem;
     padding-bottom: 10rem;
     .div3{
-      margin: 2rem 0 0 5rem;
+      margin: 0 0 0 5%;
       span{
         color: white;
-        font-size: 1.6rem;
+        font-size: 1.4rem;
       }
     }
 
   .wrap{
-    width: 90%;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
-
+    width: 90%;
     .box{
       border: 5px solid white;
       width: 25vw;
@@ -145,11 +152,12 @@ main{
         display: flex;
         align-items: center;
         justify-content: center;
+        width: 100%;
+        height: 70%;
         color: white;
         font-size: 5vw;
         background: #f5c97b;
-        width: 100%;
-        height: 70%;
+
 
 
 
@@ -159,19 +167,20 @@ main{
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 3vw;
-        background: #83b09a;
         width: 100%;
         height: 30%;
+        font-size: 3vw;
+        background: #83b09a;
+
 
       }
       .box3{
-        width: 100%;
-        height: 5vw;
+
         display: none;
         justify-content: space-between;
         margin-top: 2vw;
-
+        width: 100%;
+        height: 5vw;
         div{
           display: inline-block;
         }
@@ -209,24 +218,27 @@ main{
 
 
 footer{
-  height: 7rem;
-  width: 100%;
-  background:#29bde0 ;
   position: fixed;
   bottom: 0;
-  border-top:2px solid white;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 7rem;
+  width: 100%;
+
+  background:#29bde0 ;
+  border-top:2px solid white;
+
   .a1{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 70%;
     height: 5rem;
+    font-size: 1.8rem;
     background: #fbb435;
     color: white;
-    font-size: 1.8rem;
+
     &:hover{
       background: #fbb435;
     }
