@@ -13,7 +13,9 @@ body{
 /**********顶部样式*****************/
 
 .top{
+    width: 100%;
     background: #fff;
+
 }
 .top-1{
     color: #29b078;
@@ -84,10 +86,11 @@ header .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.activ
     border: none;
     padding: 12px 10px;
     margin-bottom: 9px;
-
+    background: #47d197;
 }
+
 .navbar-default .btn1:hover,.navbar-default .btn1:focus{
-    background: none;
+    background: rgb(33,141,96);
 }
 .ImgOne{
     transform: scale(.8);
@@ -129,6 +132,8 @@ header .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.activ
     font-size: 1rem;
     color: #999999;
 }
+
+
 .img1{
     padding: 7px 0;
 }
@@ -161,13 +166,13 @@ header .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.activ
     font-size: 1.2rem;
 }
 .art3-1{
-    width: 4rem;
-    height: 4rem;
-    line-height: 4rem;
+    width: 3rem;
+    height: 3rem;
+    margin-right: 1rem;
+    line-height: 3rem;
     text-align: center;
     color: #29b078;
     border-radius: 50%;
-    margin-right: 1rem;
     box-shadow:1px 1px 1px 1px #999;
 }
 .art3-box{
@@ -186,6 +191,14 @@ header .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.activ
     }
 
 }
+
+
+    .art2-p{
+       display: flex;
+        justify-content: center;
+    }
+
+
 @media screen and (max-width:992px ){
     .art3-box{
         margin: 2rem 0;
@@ -211,6 +224,8 @@ header .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.activ
 }
 
 .art-box{
+    margin: 2rem 0 0 0;
+    padding: 0 0 2rem 0;
     background: white;
     text-align: center;
     box-shadow: 0  0 9px #999;
@@ -218,15 +233,17 @@ header .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.activ
 .art-box img{
     width: 5rem;
     height: 5rem;
-    border-radius: 50%;
     margin: 1rem 0;
-
+    border-radius: 50%;
 }
 .p3{
     font-size: 1.2rem;
 }
 .p4{
-    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding:2rem 4rem ;
     color: #999;
     font-size: 1.2rem;
 }
@@ -297,6 +314,7 @@ header .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.activ
     align-items: center;
     background: white;
     height: 10rem;
+    box-shadow: .5rem .5rem #ccc;
 }
 .art5-box:hover{
     border: 1px solid #e2e2e2;
@@ -317,6 +335,11 @@ header .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.activ
     text-decoration: none;
 }
 
+@media screen and (max-width: 768px){
+    .art6-1{
+        padding: 0 3rem;
+    }
+}
 
 footer{
     background: #26a26f;
@@ -352,4 +375,5 @@ footer ul li a{
     line-height: 2rem;
     text-align: center;
     border-top:solid 1px #32c086 ;
+    margin-top: 2rem;
 }

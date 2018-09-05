@@ -168,10 +168,13 @@ header .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.activ
     border-radius: 1rem;
 }
 .div2-2-1{
-    display: flex;
+  /*  display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
     border-bottom: 1px solid #e6e6e6;
+}
+.div2-2-1img{
+    float: left;
 }
 .div2-2-1>p{
     line-height: 3rem;
@@ -182,7 +185,7 @@ header .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.activ
     line-height: 3rem;
     color: #999;
     text-indent: 2rem;
-    padding: 3rem 0;
+    padding: .5rem 0;
     font-size: 1.2rem;
 }
 footer{

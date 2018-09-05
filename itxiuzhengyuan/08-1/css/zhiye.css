@@ -342,16 +342,16 @@ footer ul li a{
 }
 @media screen and (max-width: 767px ){
     .divFour{
-        width: 345px;
-        height: 378px;
+       /* width: 345px;
+        height: 378px;*/
     }
     .divFour1{
-        width: 345px;
-        height: 378px;
+       /* width: 345px;
+        height: 378px;*/
         margin: 0 15px;
     }
     .divFour2{
-        width: 345px;
-        height: 378px;
+     /*   width: 345px;
+        height: 378px;*/
     }
 }
