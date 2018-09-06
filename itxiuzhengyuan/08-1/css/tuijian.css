@@ -13,7 +13,8 @@ body{
 /**********顶部样式*****************/
 
 .top{
-    background: #fff;
+    background: #fafafa;
+
 
 }
 .top-1{
@@ -24,7 +25,7 @@ body{
 .top-2{
     margin: .5rem 0;
     float: right;
-
+    padding-right: 15px;
 }
 /*使电话号码在屏幕缩小的时候隐藏 避免top图片下移一行*/
 @media screen and (max-width:992px ){
@@ -180,6 +181,7 @@ header .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.activ
     line-height: 3rem;
     color: #999999;
     font-size: 1.2rem;
+    text-indent: 26px;
 }
 .div2-2-2>p{
     line-height: 3rem;

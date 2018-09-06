@@ -12,7 +12,7 @@ body{
 
 /**********顶部样式*****************/
 .top{
-    background: #fff;
+    background: #fafafa;
 }
 .top-1{
     color: #29b078;
@@ -22,7 +22,7 @@ body{
 .top-2{
     margin: .5rem 0;
     float: right;
-
+    padding-right: 15px;
 }
 /*使电话号码在屏幕缩小的时候隐藏 避免top图片下移一行*/
 @media screen and (max-width:992px ){
@@ -120,19 +120,31 @@ header .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.activ
 }
 /*方向  */
 .divTwo{
-    display: flex;
-    align-items: center;
-    height: 5rem;
-    border-bottom: 1px solid #edf1f2;
+    margin-top: 2rem;
 }
 .divTwo2 ul{
     margin-bottom: 0;/*清除ul下边距*/
+
 }
-.divTwo1,.divTwo2,.divTwo2 ul li{
-    display: inline-flex;
-    margin: 0 1rem 0  0;
+.divTwo2 ul li{
+  display: inline-block;
+    list-style: none;
+    margin: 0 1rem;
 }
 
+@media screen and (max-width:992px ){
+    .divTwo1{
+        padding: 1rem 0;
+        text-align: center;
+        border-bottom:1px solid #ccc ;
+
+    }
+    .divTwo2 ul li{
+        padding: 1rem 0;
+        display: block;
+        text-align: center;
+    }
+}
 
 .divTwo-a{
     color:#000;
@@ -241,7 +253,7 @@ header .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.activ
     width: 50%;
     color: #999;
     font-size: 1.2rem;
-    padding: .5rem 0 .5rem 1rem;
+    padding: .5rem 0 .5rem .5rem;
 }
 .ImgTwo{
     transform: scale(.8);
