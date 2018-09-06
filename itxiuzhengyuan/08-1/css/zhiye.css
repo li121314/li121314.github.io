@@ -346,6 +346,7 @@ footer ul li a{
     line-height: 2rem;
     text-align: center;
     border-top:solid 1px #32c086 ;
+    margin-top: 2rem;
 }
 @media screen and (max-width:992px ){
     .foot-box-1{
