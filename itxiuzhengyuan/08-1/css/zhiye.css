@@ -5,10 +5,7 @@ html{
 body{
     background: #fafafa;
 }
-*{
-    padding: 0;
-    margin: 0;
-}
+
 
 /**********顶部样式*****************/
 .top{
