@@ -239,6 +239,14 @@ label {
 .radio input[type="radio"] {
     display: none;
 }
+
+.checkbox {
+    display: none;
+}
+input[type="checkbox"]:checked+.option{
+    border: 1px solid #1d7ad9;
+    background: #1d7ad9;
+}
 input[type="radio"]:checked+.option{
     border: 1px solid #1d7ad9;
     background: #1d7ad9;
@@ -282,12 +290,20 @@ input[type="radio"]:checked+.option{
     font-size: 1.2rem;
 }
 
-@media screen and (max-width: 850px){
+.drop-down-list{
+    min-width: 100px;
+}
+@media screen and (max-width: 768px){
     .div3{
         height: 10rem;
+        padding-left: 2rem;
     }
    .div4{
        height: 10rem;
+       display: flex;
+       justify-content: flex-end;
+       align-items: start;
+       margin-top: 1rem;
    }
    .radio{
        margin-top: 0;
@@ -350,12 +366,12 @@ input[type="radio"]:checked+.option{
     margin-top: 5rem;
 }
 .p4{
-    margin: 5rem 0;
+    margin: 1rem 0;
     color: #999999;
     font-size: 1.6rem;
 }
 .div9{
-    margin: 5rem 0;
+    margin: 1rem 0;
 }
 .div9-2{
     margin-top: 1rem;
@@ -379,7 +395,7 @@ input[type="radio"]:checked+.option{
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-top: 5rem;
+    margin-top: 1rem;
 }
 .p5{
     color:#999;
@@ -403,7 +419,7 @@ input[type="radio"]:checked+.option{
     background: #e15053;
     color: white;
 }
-@media screen and (max-width: 850px){
+@media screen and (max-width: 768px){
     .div311 .radio{
       display: block;
     }
