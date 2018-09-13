@@ -294,6 +294,12 @@ input[type="radio"]:checked+.option{
 .drop-down-list{
     min-width: 100px;
 }
+@media screen and (max-width: 404px){
+    .radio{
+        display: block;
+    }
+
+}
 @media screen and (max-width: 600px){
     .div3{
         height: 10rem;
@@ -309,7 +315,7 @@ input[type="radio"]:checked+.option{
    .radio{
        margin-top: 0;
        margin-bottom: 0;
-       display: block;
+
    }
    .div311{
 
@@ -422,7 +428,7 @@ input[type="radio"]:checked+.option{
 }
 @media screen and (max-width: 600px){
     .div311 .radio{
-      display: block;
+     display: block;
     }
     .div311 .radio label{
         display: flex;
