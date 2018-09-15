@@ -100,6 +100,7 @@ header .head-nav ul li .head-a1{
     padding-bottom: .5rem;
     padding-top: .5rem;
 }
+
 header .head-nav ul li .a1-active{
     background: #1d7ad9;
     color: white;
@@ -414,6 +415,7 @@ input[type="radio"]:checked+.option{
     background: #1d7ad9;
 }
 .p6{
+    display: inline-block;
     text-align: center;
     color: white;
     margin-bottom: 0;
@@ -426,9 +428,16 @@ input[type="radio"]:checked+.option{
     background: #e15053;
     color: white;
 }
+.botp6{
+    text-align: center;
+}
 @media screen and (max-width: 600px){
     .div311 .radio{
      display: block;
+    }
+    .p6{
+        display: block;
+        padding: 0;
     }
     .div311 .radio label{
         display: flex;
@@ -466,3 +475,4 @@ input[type="radio"]:checked+.option{
         justify-content: flex-start;
     }
 }
+
