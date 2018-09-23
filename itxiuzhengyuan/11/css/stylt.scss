@@ -6,14 +6,24 @@ html{
   font-size: 10px;
 }
 body{
-
+/*
   min-width: 300px;
-  max-width: 780px;
-  margin: 0 auto;
+  max-width: 780px;*/
+  margin: 0 ;
   .bg{
     background:$bodybg;
   }
 }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+input[type="number"]{
+  -moz-appearance: textfield;
+}
+
+
 
 
 header{
@@ -50,6 +60,21 @@ header{
   }
 }
 
+.divimg{
+  width: 30px;
+  height: 40px;
+  background: url("../img/xuebitu.png") 0 9px no-repeat;
+  background-size: 50% 150%;
+  margin-left: 2rem;
+
+}
+.divimg1{
+  width: 30px;
+  height: 40px;
+  background: url("../img/xuebitu.png") 0 -26px no-repeat;
+  background-size: 50% 150%;
+  margin-left: 2rem;
+}
 
 .input1{
   width: 100%;

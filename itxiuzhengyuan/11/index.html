@@ -15,11 +15,11 @@
     <a class="Header-a2" href>注册</a>
 </header>
     <div class="input1">
-        <img class="main_iphon" src="img/iphone.png" >
-        <input type="text" class="main_in" placeholder="请输入手机号">
+        <div class="divimg"></div>
+        <input type="number" class="main_in"  onkeypress="return (/[\d]/.test(String.fromCharCode(event.keyCode)))" oninput="if(value.length>11)value=value.slice(0,11)" placeholder="请输入手机号">
     </div>
     <div class="input1">
-        <img class="main_iphon" src="img/locked%202.png" >
+        <div class="divimg1"></div>
         <input type="password" class="main_in" placeholder="请输入密码">
     </div>
 
