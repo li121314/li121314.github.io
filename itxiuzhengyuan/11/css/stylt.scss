@@ -1,6 +1,7 @@
 
 $bgcolor:#5ac0ce;
 $aColor:#ccc;
+$bodybg:#eff0f4;
 html{
   font-size: 10px;
 }
@@ -10,7 +11,7 @@ body{
   max-width: 780px;
   margin: 0 auto;
   .bg{
-    background: #eff0f4;
+    background:$bodybg;
   }
 }
 
