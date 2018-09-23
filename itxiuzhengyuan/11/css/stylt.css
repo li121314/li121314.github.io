@@ -27,35 +27,35 @@ header {
   header .Header-a1 {
     text-decoration: none;
     float: left;
-    margin-left: 2rem;
     color: white;
-    font-size: 1.4rem; }
+    font-size: 1.4rem;
+    margin-left: 2rem; }
     header .Header-a1:hover {
       text-decoration: none;
       color: white; }
   header .Header-a2 {
     text-decoration: none;
     float: right;
-    margin-right: 2rem;
     color: white;
-    font-size: 1.4rem; }
+    font-size: 1.4rem;
+    margin-right: 2rem; }
     header .Header-a2:hover {
       text-decoration: none;
       color: white; }
 
 .divimg {
+  background: url("../img/xuebitu.png") 0 9px no-repeat;
   width: 30px;
   height: 40px;
-  background: url("../img/xuebitu.png") 0 9px no-repeat;
-  background-size: 50% 150%;
-  margin-left: 2rem; }
+  margin-left: 2rem;
+  background-size: 50% 150%; }
 
 .divimg1 {
+  background: url("../img/xuebitu.png") 0 -26px no-repeat;
   width: 30px;
   height: 40px;
-  background: url("../img/xuebitu.png") 0 -26px no-repeat;
-  background-size: 50% 150%;
-  margin-left: 2rem; }
+  margin-left: 2rem;
+  background-size: 50% 150%; }
 
 .input1 {
   width: 100%;
@@ -94,8 +94,8 @@ footer {
 
 .Div2 {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   margin-top: 10rem; }
   .Div2 .Div2-1 {
     background: #ccc;
@@ -108,7 +108,8 @@ footer {
 
 .Div4 {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  align-items: none; }
   .Div4 a {
     text-decoration: none;
     color: #ccc;

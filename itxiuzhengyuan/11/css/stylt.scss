@@ -36,10 +36,9 @@ header{
     font-size: 1.6rem;
   }
 
-  .Header-a1{
+  @mixin a($x){
     text-decoration: none;
-    float: left;
-    margin-left:2rem ;
+    float: $x;
     color: white;
     font-size: 1.4rem;
     &:hover{
@@ -47,33 +46,34 @@ header{
       color:white;
     }
   }
+  .Header-a1{
+    @include a(left);
+    margin-left:2rem ;
+
+  }
   .Header-a2{
-    text-decoration: none;
-    float:right;
+    @include a(right);
     margin-right: 2rem;
-    color: white;
-    font-size: 1.4rem;
-    &:hover{
-      text-decoration: none;
-      color:white;
-    }
   }
 }
 
-.divimg{
-  width: 30px;
-  height: 40px;
-  background: url("../img/xuebitu.png") 0 9px no-repeat;
-  background-size: 50% 150%;
+@mixin box($w,$h){
+  width: $w;
+  height: $h;
   margin-left: 2rem;
+  background-size: 50% 150%;
+}
+
+
+.divimg{
+  background: url("../img/xuebitu.png") 0 9px no-repeat;
+  @include box(30px,40px);
 
 }
 .divimg1{
-  width: 30px;
-  height: 40px;
+
   background: url("../img/xuebitu.png") 0 -26px no-repeat;
-  background-size: 50% 150%;
-  margin-left: 2rem;
+  @include box(30px,40px);
 }
 
 .input1{
@@ -96,10 +96,14 @@ header{
   }
 }
 
-footer{
+@mixin flex($x,$y) {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: $x;
+  align-items: $y;
+}
+
+footer{
+  @include flex(center,center);
   width: 100%;
   height: 5rem;
   background: $bgcolor;
@@ -117,9 +121,7 @@ footer{
 }
 
 .Div2{
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flex(center,center);
   margin-top: 10rem;
 
   .Div2-1{
@@ -135,8 +137,7 @@ footer{
 
 }
 .Div4{
-  display: flex;
-  justify-content: space-between;
+  @include flex(space-between,none);
   a{
     text-decoration: none;
     color: $aColor;
@@ -145,9 +146,9 @@ footer{
 }
 
 .Div3{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
+  @include flex(space-between,center);
+
   margin: 5rem 20% 0 20%;
   padding-bottom: 10%;
   .Div3-1{
