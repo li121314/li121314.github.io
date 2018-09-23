@@ -44,22 +44,23 @@ header {
       color: white; }
 
 .divimg {
-  background: url("../img/xuebitu.png") 0 9px no-repeat;
   width: 30px;
   height: 40px;
+  background: url("../img/xuebitu.png") 0 9px no-repeat;
   margin-left: 2rem;
   background-size: 50% 150%; }
 
 .divimg1 {
-  background: url("../img/xuebitu.png") 0 -26px no-repeat;
   width: 30px;
   height: 40px;
+  background: url("../img/xuebitu.png") 0 -26px no-repeat;
   margin-left: 2rem;
   background-size: 50% 150%; }
 
 .input1 {
   width: 100%;
   display: flex;
+  justify-content: none;
   align-items: center;
   background: white;
   margin-top: 1rem; }

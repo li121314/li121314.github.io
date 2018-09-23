@@ -57,29 +57,33 @@ header{
   }
 }
 
-@mixin box($w,$h){
+@mixin box($w,$h,$x,$y){
   width: $w;
   height: $h;
+  background: url("../img/xuebitu.png") $x $y no-repeat;
   margin-left: 2rem;
   background-size: 50% 150%;
+
 }
 
 
 .divimg{
-  background: url("../img/xuebitu.png") 0 9px no-repeat;
-  @include box(30px,40px);
+
+  @include box(30px,40px,0,9px);
 
 }
 .divimg1{
 
-  background: url("../img/xuebitu.png") 0 -26px no-repeat;
-  @include box(30px,40px);
+  @include box(30px,40px,0 ,-26px);
 }
-
+@mixin flex($x,$y) {
+  display: flex;
+  justify-content: $x;
+  align-items: $y;
+}
 .input1{
   width: 100%;
-  display: flex;
-  align-items:center;
+  @include flex(none,center);
   background: white;
   margin-top:1rem;
   img {
@@ -96,11 +100,7 @@ header{
   }
 }
 
-@mixin flex($x,$y) {
-  display: flex;
-  justify-content: $x;
-  align-items: $y;
-}
+
 
 footer{
   @include flex(center,center);
