@@ -24,24 +24,26 @@ header {
   header span {
     color: white;
     font-size: 1.6rem; }
-  header .Header-a1 {
+
+.Header-a1 {
+  text-decoration: none;
+  float: left;
+  color: white;
+  font-size: 1.4rem;
+  margin-left: 2rem; }
+  .Header-a1:hover {
     text-decoration: none;
-    float: left;
-    color: white;
-    font-size: 1.4rem;
-    margin-left: 2rem; }
-    header .Header-a1:hover {
-      text-decoration: none;
-      color: white; }
-  header .Header-a2 {
+    color: white; }
+
+.Header-a2 {
+  text-decoration: none;
+  float: right;
+  color: white;
+  font-size: 1.4rem;
+  margin-right: 2rem; }
+  .Header-a2:hover {
     text-decoration: none;
-    float: right;
-    color: white;
-    font-size: 1.4rem;
-    margin-right: 2rem; }
-    header .Header-a2:hover {
-      text-decoration: none;
-      color: white; }
+    color: white; }
 
 .divimg {
   width: 30px;

@@ -1,7 +1,5 @@
+@import "11.scss";
 
-$bgcolor:#5ac0ce;
-$aColor:#ccc;
-$bodybg:#eff0f4;
 html{
   font-size: 10px;
 }
@@ -23,9 +21,6 @@ input[type="number"]{
   -moz-appearance: textfield;
 }
 
-
-
-
 header{
   background:$bgcolor ;
   height: 5rem;
@@ -35,16 +30,6 @@ header{
     color: white;
     font-size: 1.6rem;
   }
-
-  @mixin a($x){
-    text-decoration: none;
-    float: $x;
-    color: white;
-    font-size: 1.4rem;
-    &:hover{
-      text-decoration: none;
-      color:white;
-    }
   }
   .Header-a1{
     @include a(left);
@@ -55,18 +40,6 @@ header{
     @include a(right);
     margin-right: 2rem;
   }
-}
-
-@mixin box($w,$h,$x,$y){
-  width: $w;
-  height: $h;
-  background: url("../img/xuebitu.png") $x $y no-repeat;
-  margin-left: 2rem;
-  background-size: 50% 150%;
-
-}
-
-
 .divimg{
 
   @include box(30px,40px,0,9px);
@@ -75,11 +48,6 @@ header{
 .divimg1{
 
   @include box(30px,40px,0 ,-26px);
-}
-@mixin flex($x,$y) {
-  display: flex;
-  justify-content: $x;
-  align-items: $y;
 }
 .input1{
   width: 100%;

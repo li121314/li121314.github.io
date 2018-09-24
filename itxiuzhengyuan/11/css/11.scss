@@ -1,0 +1,31 @@
+$bgcolor:#5ac0ce;
+$aColor:#ccc;
+$bodybg:#eff0f4;
+
+@mixin a($x) {
+  text-decoration: none;
+  float: $x;
+  color: white;
+  font-size: 1.4rem;
+  &:hover {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+
+@mixin box($w,$h,$x,$y){
+  width: $w;
+  height: $h;
+  background: url("../img/xuebitu.png") $x $y no-repeat;
+  margin-left: 2rem;
+  background-size: 50% 150%;
+
+}
+
+
+@mixin flex($x,$y) {
+  display: flex;
+  justify-content: $x;
+  align-items: $y;
+}
