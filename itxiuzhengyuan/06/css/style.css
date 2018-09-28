@@ -4,10 +4,8 @@ html{
 
 body{
     min-width: 320px;
-
     margin: 0;
     }
-
 
 
 header{
@@ -69,7 +67,6 @@ header .header_one{
 }
 
 main{
-
     position: relative;
     top:11rem;
     display: flex;
@@ -79,7 +76,6 @@ main{
     flex-direction: column;
     justify-content: space-between;
     margin-bottom: 5rem;
-
 }
 .main-top{
 
@@ -114,22 +110,14 @@ main a{
 main ul li,.main-top ul li{
     list-style: none;
     background: white;
-
     width: 33%;
-
-
-
 }
 
 .clearone{
-
     height: 5rem;
     line-height: 5rem;
-
     float: left;
     position: relative;
-
-
 }
 
 .clearone:hover .none1{
@@ -211,6 +199,7 @@ main ul li,.main-top ul li{
     font-size: 1.4rem;
     color: #999;
     border-bottom: 1px solid #e1e5e7;
+
 }
 .centent-left{
     width: 60%;
@@ -248,16 +237,11 @@ main ul li,.main-top ul li{
     top:14rem;
 }
 
-
-
-
 .img1{
     display: inline-block;
     width: 30px;
     height: 25px;
-
     background: url("../img/two.png") -8px -63px;
-
     flex: 0 0 30px;
     transform: scale(0.6);/*定义 2D 缩放转换。*/
 }
@@ -265,8 +249,6 @@ main ul li,.main-top ul li{
     display: flex;
     align-items:center;
     color: red;
-
-
 }
 
 .img2{

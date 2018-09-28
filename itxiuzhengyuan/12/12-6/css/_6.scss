@@ -1,0 +1,16 @@
+$bgcolor:#5fc0cd;
+$baise:white;
+
+
+/* 定义flex布局  */
+@mixin flex($x,$y){
+  display: flex;
+  justify-content: $x;
+  align-items: $y;
+}
+
+/*定义宽高*/
+@mixin box($x,$y){
+  width: $x;
+  height: $y;
+}

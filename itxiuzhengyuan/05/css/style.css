@@ -200,12 +200,12 @@ main{
 }
 .wrap_six .wrap_footer{
 
-    white-space :nowrap;
-    height: 2rem;
-    line-height: 2rem;
-  /*  padding-left:1rem ;*/
+     white-space :nowrap;
+     height: 2rem;
+     line-height: 2rem;
+     /*  padding-left:1rem ;*/
 
-}
+ }
 
 .wrap_six .wrap_right{
     display: block;
