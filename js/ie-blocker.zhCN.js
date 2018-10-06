@@ -15,7 +15,7 @@
     html += "    <\/div>";
     html += "    <ul class=\"ib-browsers\">";
     html += "        <li>";
-    html += "            <a href=\"http:\/\/www.google.cn\/chrome\/browser\/desktop\/index.html\">";
+    html += "            <a href=\"http:\/\/www.google.cn\/chrome\/browser\/desktop\/index6.html\">";
     html += "                <div class=\"ib-browser-name\">Chrome<\/div>";
     html += "                <div class=\"ib-browser-description\">快速，简单，安全 - 由谷歌开发<\/div>";
     html += "            <\/a>";
@@ -40,7 +40,7 @@
     html += "        <\/li>";
     html += "    <\/ul>";
     html += "    <div class=\"ib-footer\">";
-    html += "        <a class=\"ib-try\" href=\"http:\/\/www.google.cn\/chrome\/browser\/desktop\/index.html\">试试Chrome<\/a>";
+    html += "        <a class=\"ib-try\" href=\"http:\/\/www.google.cn\/chrome\/browser\/desktop\/index6.html\">试试Chrome<\/a>";
     html += "    <\/div>";
     html += "<\/div>";
     html += "<div class=\"ib-mask\"><\/div>";

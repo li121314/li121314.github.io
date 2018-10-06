@@ -35,10 +35,10 @@ $("#play").click(function () {
 });
 
 $(".home").click(function () {
-        location.href='index.html';
+        location.href='index6.html';
     });
     $(".foot-one").click(function () {
-        location.href='index.html';
+        location.href='index6.html';
     });
 
     $(".ol-one li").click(function(){

@@ -15,7 +15,7 @@
     html += "    <\/div>";
     html += "    <ul class=\"ib-browsers\">";
     html += "        <li>";
-    html += "            <a href=\"http:\/\/www.google.com\/chrome\/browser\/desktop\/index.html\">";
+    html += "            <a href=\"http:\/\/www.google.com\/chrome\/browser\/desktop\/index6.html\">";
     html += "                <div class=\"ib-browser-name\">Chrome<\/div>";
     html += "                <div class=\"ib-browser-description\">Speed, Simplicity, Security - Google.<\/div>";
     html += "            <\/a>";
@@ -40,7 +40,7 @@
     html += "        <\/li>";
     html += "    <\/ul>";
     html += "    <div class=\"ib-footer\">";
-    html += "        <a class=\"ib-try\" href=\"http:\/\/www.google.com\/chrome\/browser\/desktop\/index.html\">Try Chrome now!<\/a>";
+    html += "        <a class=\"ib-try\" href=\"http:\/\/www.google.com\/chrome\/browser\/desktop\/index6.html\">Try Chrome now!<\/a>";
     html += "    <\/div>";
     html += "<\/div>";
     html += "<div class=\"ib-mask\"><\/div>";
