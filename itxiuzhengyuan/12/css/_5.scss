@@ -16,3 +16,14 @@ $baise:white;
   height: $y;
 }
 
+@mixin fontsize($x){
+  font-size: $x;
+}
+
+@mixin foot($a,$b){
+  position: fixed;
+  @include box(100%,5rem);
+  @include flex($a,$b);
+  bottom: 0;
+  background: $baise;
+}
