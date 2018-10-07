@@ -14,7 +14,7 @@ header{
   a{
     position: absolute;
     left: 2rem;
-    @include box(0.8rem,5rem);
+    @include box(2rem,5rem);
     text-decoration: none;
     line-height: 5rem;
     color: $baise;
