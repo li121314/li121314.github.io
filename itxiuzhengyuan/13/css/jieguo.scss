@@ -1,0 +1,144 @@
+@import "variable";
+@import "public";
+@import "mixer";
+
+header{
+  position: fixed;
+  z-index: 100;
+  @include flex(space-between,center);
+  @include box(100%,5rem);
+
+  padding: 0 3%;
+  border-bottom: solid 1px rgba(255,255,255,.5); ;
+  background: #29bde0;
+
+  .div1{
+    @include box(2.5rem,2.5rem);
+
+    background: url("../img/home.png") no-repeat ;
+    background-size: contain;
+    cursor:pointer
+  }
+  .div2{
+    @include box(2.5rem,2.5rem);
+    background: url("../img/i.png");
+    background-size: contain;
+    border: solid 2px white;
+    border-radius: 50%;
+  }
+  span{
+    font-size: 1.8rem;
+    color: white;
+  }
+}
+
+main{
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+  background:#29bde0;
+
+  .div3{
+    margin: 2rem auto;
+    @include box(20rem,13rem);
+    background:url("../img/header-one.png") no-repeat;
+    background-size: contain;
+
+  }
+  .div4{
+
+    @include flex(space-between,none);
+
+    margin: 0 auto;
+
+    padding: 0 5%;
+    color:#ffc865;
+    font-size: 1.6rem;
+
+  }
+
+  .div11{
+    list-style: none;
+    text-align: left;
+    color: white;
+    font-size: 1.4rem;
+    padding-left: 0;
+    padding-top: 2rem;
+  }
+  .div10{
+    margin: 0 auto;
+  }
+
+  .div5{
+    width: 21rem;
+    text-align: left;
+    span{
+      color: white;
+      font-size: 1.4rem;
+    }
+  }
+}
+
+
+.div6{
+
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid #ccc;
+
+  .div6-0{
+    padding-bottom: 1rem;
+  }
+
+  .div6-1{
+    padding-left: 5rem;
+    font-size: 1.8rem;
+
+  }
+  .div6-2{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5rem;
+    color: #ccc;
+
+  }
+  .div6-3{
+    padding-left: 5rem;
+    div{
+      padding: 0;
+      color: #ccc;
+    }
+  }
+
+
+
+}
+
+.div7{
+  padding-bottom: 6rem;
+}
+
+footer{
+
+  position: fixed;
+  @include flex(space-between,center);
+
+  bottom: 0;
+  background: rgba(153,233,240,0.8);
+  height: 5rem;
+  width: 100%;
+
+
+  .a1{
+    @include flex(center,center);
+    @include box(45%,4rem);
+    font-size: 1.8rem;
+    background: #f66f6f;
+  }
+  .a2{
+    @include flex(center,center);
+    @include box(45%,4rem);
+    font-size: 1.8rem;
+    background: #fbb435;
+  }
+}

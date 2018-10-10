@@ -1,0 +1,155 @@
+
+@import "variable";
+@import "mixer";
+@import "public";
+
+
+body{
+
+  background: $danhuise;
+
+}
+
+header{
+  @include flex(none,center);
+  @include box(100%,5rem);
+  position: fixed;
+  z-index: 100;
+  background: #29bde0;
+}
+.head1{
+  @include flex(center,center);
+  @include box(3rem,3rem);
+  margin-left: 3%;
+  text-decoration: none;
+  span{
+    display: block;
+    @include box(2.5rem,.3rem);
+    background: $baise;
+
+
+
+    &::after{
+     @include content();
+      top: 3rem;
+      @include box(2.5rem,.3rem);
+
+    }
+    &::before{
+     @include content();
+      bottom: 3rem;
+      @include box(2.5rem,.3rem);
+
+    }
+
+  }
+
+
+}
+
+main{
+  padding-top: 5rem;
+
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  .div1{
+    @include flex(center,center);
+    @include marginer(2rem,auto);
+    @include box(94%,5rem);
+
+    color: $huise;
+    border: 1px solid #ccc;
+    .div1-1{
+     position: absolute;
+      right: 4%;
+      font-size: 3rem;
+    }
+  }
+
+  .wrap{
+    background: white;
+  }
+
+  .div2{
+    @include flex(center,center);
+    @include box(94%,5rem);
+    @include marginer(0,auto);
+    color: #fdd793;
+    border-bottom: solid 2px #fdd793;
+  }
+  .div3{
+    @include flex(center,center);
+    padding-top: 2rem;
+    width: 94%;
+    @include marginer(0,auto);
+
+    .btn1{
+      @include flex(center,center);
+      @include box(88%,5rem);
+      color: white;
+      font-size: 1.6rem;
+      background: $danlanse;
+      border-radius: 0;
+      text-decoration: none;
+    }
+
+  }
+
+  ul{
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+
+  }
+
+  .div4{
+    @include flex(center,center);
+    @include marginer(0,auto);
+    width: 94%;
+    padding-top: 1rem;
+
+    color: #ccc;
+    font-size: 1.4rem;
+
+  }
+
+  .div5{
+
+    @include flex(center,center);
+    padding-top: 5rem;
+    @include marginer(0,auto);
+    width: 94%;
+
+    ol{
+      padding-left: 0;
+      .li1-1{
+        background: #69d1e9;
+      }
+    }
+
+    ol li{
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: #ccc;
+
+    }
+
+  }
+
+
+  .div6{
+    float: right;
+    margin:-24rem 4vw 0 0;
+
+    i{
+      font-size: 3rem;
+      color: #fbb435;
+    }
+  }
+}
+
+
+

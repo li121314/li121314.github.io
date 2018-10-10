@@ -1,0 +1,22 @@
+@import "variable";
+@mixin flex($a,$b){
+  display: flex;
+  justify-content:$a;
+  align-items: $b;
+}
+@mixin box($a,$b){
+  width: $a;
+  height: $b;
+}
+@mixin content(){
+  content: "";
+  position: absolute;
+  background: $baise;
+
+}
+@mixin marginer($a,$b){
+  margin: $a $b;
+  font-size: 1.8rem;
+  background: $baise;
+
+}
