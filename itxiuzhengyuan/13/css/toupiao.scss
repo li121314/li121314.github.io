@@ -90,6 +90,7 @@ header{
       border-radius: 50%;
       background: #fbb435;
       margin-right: 3%;
+      border: none;
       i{
         color: $baise;
         font-size: 1.4rem;
@@ -145,7 +146,7 @@ main{
       .box2{
 
         @include flex(center,center);
-        @include box(100%,70%);
+        @include box(100%,30%);
         font-size: 3vw;
         background: #83b09a;
 
@@ -211,7 +212,7 @@ footer{
     font-size: 1.8rem;
     background: #fbb435;
     color: white;
-
+    text-decoration: none;
     &:hover{
       background: #fbb435;
     }

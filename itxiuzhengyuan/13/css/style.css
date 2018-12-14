@@ -62,6 +62,7 @@ main {
     border: 1px solid #ccc; }
     main .div1 .div1-1 {
       position: absolute;
+      line-height: 5rem;
       right: 4%;
       font-size: 3rem; }
   main .wrap {

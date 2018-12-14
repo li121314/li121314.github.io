@@ -25,6 +25,7 @@ header{
     background-size: contain;
     border: solid 2px white;
     border-radius: 50%;
+    margin-right: 5%;
   }
   span{
     font-size: 1.8rem;
@@ -134,11 +135,19 @@ footer{
     @include box(45%,4rem);
     font-size: 1.8rem;
     background: #f66f6f;
+    text-decoration: none;
+    color: white;
+    margin-left: 3%;
+    border-radius: 1rem;
   }
   .a2{
     @include flex(center,center);
     @include box(45%,4rem);
     font-size: 1.8rem;
     background: #fbb435;
+    text-decoration: none;
+    color: white;
+    margin-right: 3%;
+    border-radius: 1rem;
   }
 }

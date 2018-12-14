@@ -27,7 +27,8 @@ header {
     background: url("../img/i.png");
     background-size: contain;
     border: solid 2px white;
-    border-radius: 50%; }
+    border-radius: 50%;
+    margin-right: 5%; }
   header span {
     font-size: 1.8rem;
     color: white; }
@@ -106,7 +107,11 @@ footer {
     width: 45%;
     height: 4rem;
     font-size: 1.8rem;
-    background: #f66f6f; }
+    background: #f66f6f;
+    text-decoration: none;
+    color: white;
+    margin-left: 3%;
+    border-radius: 1rem; }
   footer .a2 {
     display: flex;
     justify-content: center;
@@ -114,6 +119,10 @@ footer {
     width: 45%;
     height: 4rem;
     font-size: 1.8rem;
-    background: #fbb435; }
+    background: #fbb435;
+    text-decoration: none;
+    color: white;
+    margin-right: 3%;
+    border-radius: 1rem; }
 
 /*# sourceMappingURL=jieguo.css.map */
