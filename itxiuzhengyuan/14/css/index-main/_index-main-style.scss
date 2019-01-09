@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/*首页主体样式*/
+.index-main-head {
+  @include d-flex(column);
+  //padding: 15px 15px;
+  @at-root .im-h4 {
+    font-size: $f18;
+  }
+  @at-root .im-p {
+    font-size: $f16;
+    color: $c99;
+  }
+}
+.index-main-head1 {
+@include d-flex(column,center,flex-start);
+  padding: 15px 15px;
+  @media (max-width: 992px) {
+    @include d-flex(column);
+  }
+  @at-root .im-num {
+    @media (max-width: 992px) {
+      text-align: center;
+    }
+  }
+  //虚线边框
+  @at-root .dashed-left {
+    border-left: dashed 1px #DEDEDE;
+    @media (max-width: 768px) {
+      border: none;
+    }
+  }
+}
+.im-study-item {
+  @include d-flex(row,space-between);
+  width: 100%;
+  height: 100%;
+  //padding: 15px 15px;
+  @at-root .im-round {
+    width: $l55;
+    height: $l55;
+    line-height: $l55;
+    border: solid 2px #F8F8F8;
+    border-radius: 50%;
+    box-shadow: 0px 1.5px 1px 1px #F8F8F8;
+    background: $cff;
+    font-size: $f18;
+    color: $c29;
+  }
+}
+//学员
+.im-student-box {
+  @include d-flex(column,space-around);
+  width: 100%;
+  height: 100%;
+  border: solid 1px #F0EFEF;
+  border-radius: 5px;
+  background: $cff;
+  padding: $l10 $l28 $l38 $l28;
+}
+.im-student-circle {
+  @include d-flex();
+  margin-top: 20px;
+  @at-root .im-student-rounded {
+    width: 13px;
+    height: 13px;
+    margin-left: 2px;
+    border: solid 1px #F0EFEF;
+    border-radius: 50%;
+    background: $cff;
+    &:hover {
+      background: $c29;
+      cursor: pointer;
+    }
+  }
+}
+//合作企业
+.index-company {
+  background: $cff;
+  border: solid 1px #F6F6F6;
+  box-shadow: 0px 1px 0.5px 0.5px #E2E2E2;
+  @at-root .im-company-item {
+    @include d-flex();
+    width: 100%;
+    height: 130px;
+    &:hover {
+      position: relative;
+      z-index: 1;
+      box-shadow: 0px 0px 3px 1px #E2E2E2;
+    }
+  }
+}
+//友情链接
+.index-links {
+  background: $cff;
+  padding: 20px 0;
+  margin: 100px 0 0 0;
+  @at-root .index-links-item {
+    display: inline-block;
+    height: 100%;
+    text-align: center;
+    border: 1px solid $cff;
+    @at-root .index-links-round {
+      display: inline-block;
+      vertical-align: middle;
+      width: 5px;
+      height: 5px;
+      border-radius: 50%;
+      background: $c99;
+    }
+    @at-root .index-links-p {
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 8px;
+      font-size: 14px;
+      color: #999999;
+    }
+    &:hover {
+      border-bottom: solid 1px #1BA36D;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+@charset "UTF-8";
+.company-main-layout {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: auto;
+  grid-template-areas: "cm1 cm2";
+  grid-gap: 30px;
+  @media (max-width: 768px) {
+    grid-template-columns: auto;
+    grid-template-areas: "cm1" "cm2";
+  }
+}
+.cm1 {
+  grid-area: cm1;
+}
+.cm2 {
+  grid-area: cm2;
+}

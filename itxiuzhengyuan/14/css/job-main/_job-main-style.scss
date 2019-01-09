@@ -1,0 +1,122 @@
+@charset "UTF-8";
+/*职业样式*/
+.job-main-head {
+  height: 80px;
+  line-height: 80px;
+  border-bottom: solid 1px #D0D6D9;
+  @at-root .jm-head-h21 {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+  }
+  @at-root .jm-head-h22 {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #1DB176;
+  }
+}
+.job-main-nav {
+  display: flex;
+  line-height: 60px;
+  border-bottom: solid 1px #EDF1F2;
+  span {
+    font-size: 14px;
+    color: #A1A1A1;
+    white-space: nowrap;
+  }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    li {
+      text-align: center;
+      width: 88px;
+      &:hover {
+        a {
+          background: #1DB176;
+          color: #ffffff !important;
+        }
+      }
+      a {
+        font-size: 14px;
+        width: 10%;
+        color: #000000 !important;
+      }
+    }
+  }
+}
+.job-main-tip {
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  font-size: 16px;
+  border-bottom: solid 1px #D0D6D9;
+  margin-bottom: 15px;
+}
+.border-bottom {
+  border-bottom: solid 1px #EDF1F2;
+}
+
+.border-right {
+  border-right: solid 1px #EDF1F2;
+}
+.job-main-box {
+  position: relative;
+  background: $cff;
+  border: 1px solid #dee2e6;
+  p {
+    display: inline-block;
+    font-size: 12px;
+    color: #A9A9A9;
+  }
+  @at-root .jm-box-name {
+    display: flex;
+    align-items: center;
+    height: 150px;
+    padding: 0 15px;
+    @at-root img[src="images/head5.png"] {
+      width: 110px;
+      @media (max-width: 400px) {
+        width: 60px;
+      }
+    }
+    @at-root .box-name-introduce {
+      margin-left: 5px;
+      h2 {
+        font-size: 16px;
+        font-weight: 600;
+        display: block;
+        text-align: left;
+      }
+      p {
+        font-size: 14px;
+        margin-top: 13px;
+        color: #989898;
+      }
+    }
+  }
+  @at-root .jm-box-details {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 80px 40px;
+    background-color: rgba(0, 0, 0, 0.7);
+    transform: scale(0);
+    transition: transform 0.4s;
+    p {
+      color: #ffffff;
+      font-size: 16px;
+      font-weight: 600;
+    }
+  }
+  &:hover {
+    .jm-box-details {
+      transform: scale(1);
+    }
+  }
+}
+
+

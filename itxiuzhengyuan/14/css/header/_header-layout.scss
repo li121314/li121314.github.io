@@ -1,0 +1,31 @@
+@charset "UTF-8";
+//顶部布局
+.top-layout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "ht1 ht2";
+}
+.ht1 {
+  grid-area: ht1;
+}
+.ht2 {
+  grid-area: ht2;
+}
+//折叠导航布局
+.nav-layout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "n1 n2" "n3 n3";
+}
+.n1 {
+  grid-area: n1;
+}
+.n2 {
+  grid-area: n2;
+}
+.n3 {
+  grid-area: n3;
+}
+
