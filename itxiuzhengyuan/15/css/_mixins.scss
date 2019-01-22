@@ -1,0 +1,20 @@
+@charset "UTF-8";
+//flex布局
+@mixin d-flex($flow:row,$content:center,$items:center){
+  display: flex;
+  flex-flow: $flow;
+  justify-content: $content;
+  align-items: $items;
+}
+//块元素居中
+@mixin b-center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+//相对定位垂直居中
+@mixin ab-center {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}

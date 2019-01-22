@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/*底部布局*/
+.footer-layout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "f1 f2 f3";
+  @media (max-width: 768px) {
+    grid-template-areas: "f1 f1 f1" "f2 f2 f2" "f3 f3 f3";
+  }
+}
+@for $a from 1 to 4 {
+  .f#{$a} {
+    grid-area: f#{$a};
+  }
+}

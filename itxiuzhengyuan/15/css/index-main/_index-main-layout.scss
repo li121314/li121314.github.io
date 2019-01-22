@@ -1,0 +1,56 @@
+@charset "UTF-8";
+/*首页主体布局*/
+.index-main-layout {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  grid-row-gap: 30px;
+  grid-column-gap: 30px;
+  grid-template-areas: "mt mt mt mt" "m1 m2 m3 m4";
+  @media (max-width: 992px) {
+    grid-template-areas: "mt mt mt mt" "m1 m1 m2 m2" "m3 m3 m4 m4";
+  }
+  @media (max-width: 768px) {
+    grid-template-areas: "mt mt mt mt" "m1 m1 m1 m1" "m2 m2 m2 m2" "m3 m3 m3 m3" "m4 m4 m4 m4";
+  }
+}
+.mt {
+  grid-area: mt;
+}
+@for $i from 1 to 5 {
+  .m#{$i} {
+    grid-area: m#{$i};
+  }
+}
+/*合作企业布局*/
+.index-company-layout {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "ic1 ic2 ic3 ic4 ic5";
+  @media (max-width: 992px) {
+    grid-template-areas: "ic1 ic1 ic1 ic1 ic1" "ic2 ic2 ic2 ic2 ic2" "ic3 ic3 ic3 ic3 ic3" "ic4 ic4 ic4 ic4 ic4" "ic5 ic5 ic5 ic5 ic5";
+  }
+}
+@for $j from 1 to 6 {
+  .ic#{$j} {
+    grid-area: ic#{$j};
+  }
+}
+/*友情链接布局*/
+.index-links-layout {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: auto;
+  grid-template-areas: "il1 il2 il3 il4 il5 il6 il7 il8 il9 il10";
+  @media (max-width: 992px) {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "il1 il2" "il3 il4" "il5 il6" "il7 il8" "il9 il10";
+  }
+}
+@for $k from 1 to 11 {
+  .il#{$k} {
+    grid-area: il#{$k};
+    padding: 0 15px;
+  }
+}

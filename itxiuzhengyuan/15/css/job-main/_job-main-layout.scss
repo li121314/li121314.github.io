@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/*职业主体布局*/
+.job-main-layout {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-gap: 10px;
+  grid-template-areas: "jm1 jm2 jm3";
+  @media (max-width: 1200px) {
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: "jm1 jm2" "jm3 .";
+  }
+  @media (max-width: 992px) {
+    grid-template-columns: 100%;
+    grid-template-areas: "jm1" "jm2" "jm3";
+  }
+}
+@for $h from 1 to 4 {
+  .jm#{$h} {
+    grid-area: jm#{$h};
+  }
+}

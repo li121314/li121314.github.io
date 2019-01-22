@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/*底部样式*/
+.footer-content {
+  background: $c29;
+  padding: 20px 0;
+  @at-root .footer-a {
+    display: inline-block;
+    font-size: $f14;
+    border: 1px solid $c29;
+    &:hover {
+      border-bottom: solid 1px #ffffff;
+    }
+  }
+  @at-root .footer-qr {
+    text-align: center;
+    @media (max-width: 768px) {
+      text-align: left;
+    }
+  }
+}
+.footer-p {
+  padding: 4px 0;
+  text-align: center;
+  border-top: solid 1px #26C184;
+  font-size: 12px;
+  color: #ffffff;
+  background: $c29;
+}

@@ -1,0 +1,36 @@
+@charset "UTF-8";
+//头部样式
+header {
+  @at-root .top {
+    height: $l38;
+    @at-root .phone {
+      @include d-flex(row, start);
+      font-size: $f14;
+      color: $c29;
+      @media (max-width: 576px) {
+        display: none;
+      }
+    }
+    @at-root .top-img {
+      @include d-flex(row, flex-end);
+      @media (max-width: 576px) {
+        display: none;
+      }
+    }
+    @at-root .sign {
+      @media (max-width: 576px) {
+        @include d-flex(row, flex-end);
+        font-size: $f14;
+      }
+      @at-root .sign-line {
+        width: 2px;
+        height: 13px;
+        background: #29b078;
+      }
+    }
+  }
+  @at-root nav {
+    line-height: $l75;
+    background: $c29;
+  }
+}
